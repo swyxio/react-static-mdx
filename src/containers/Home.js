@@ -4,25 +4,23 @@ import convert from 'htmr';
 
 export default withRouteData(
   class extends React.Component {
-    state = { Thing: null };
+    // state = { Thing: null };
     // componentDidMount = async () => {
     //   const Thing = await import(path);
     //   this.setState({ Thing });
     // };
-    componentDidMount = () => {
-      const path = '../Test.mdx';
-      import(path).then(Thing => this.setState({ Thing: Thing.default }));
-    };
+    // componentDidMount = () => {
+    //   const path = '../Test.mdx';
+    //   import(path).then(Thing => this.setState({ Thing: Thing.default }));
+    // };
 
     render() {
-      const { jdown, reactStatic } = this.props;
-      const { Thing } = this.state;
-      console.log({ Thing });
+      const { currentprojects, intro, opensource } = this.props;
       return (
         <div>
-          {Thing && <Thing />}
-          <section>{convert(reactStatic.contents)}</section>
-          <section>{convert(jdown.contents)}</section>
+          <section>{convert(intro.contents)}</section>
+          <section>{convert(opensource.contents)}</section>
+          <section>{convert(currentprojects.contents)}</section>
         </div>
       );
     }

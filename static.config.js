@@ -10,7 +10,9 @@ export default {
     title: 'React Static'
   }),
   getRoutes: async () => {
-    const { posts, home, about } = await jdown('content');
+    const props = await jdown('content');
+    const { posts, home, talks, talks2018 } = props;
+    console.log(Object.keys(props.home));
     return [
       {
         path: '/',
@@ -20,20 +22,20 @@ export default {
         })
       },
       {
-        path: '/about',
-        component: 'src/containers/About',
+        path: '/talks',
+        component: 'src/containers/Talks',
         getData: () => ({
-          about
+          talks
         })
       },
       {
-        path: '/blog',
-        component: 'src/containers/Blog',
+        path: '/writing',
+        component: 'src/containers/Writing',
         getData: () => ({
           posts
         }),
         children: posts.map(post => ({
-          path: `/post/${post.slug}`,
+          path: `/${post.slug}`,
           component: 'src/containers/Post',
           getData: () => ({
             post

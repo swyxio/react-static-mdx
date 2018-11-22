@@ -1,5 +1,6 @@
 import { reloadRoutes } from 'react-static/node';
 import jdown from 'jdown';
+import path from 'path';
 import chokidar from 'chokidar';
 
 chokidar.watch('content').on('all', () => reloadRoutes());
@@ -51,7 +52,9 @@ export default {
     //   test: /.mdx?$/,
     //   use: ['babel-loader', '@mdx-js/loader']
     // });
-
+    config.resolve.alias = {
+      '@components': path.resolve(__dirname, 'components/')
+    };
     config.module.rules.map(rule => {
       if (
         typeof rule.test !== 'undefined' ||
@@ -67,7 +70,6 @@ export default {
 
       return rule;
     });
-    console.log(config.module.rules);
     return config;
   }
 };

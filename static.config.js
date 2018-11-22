@@ -1,56 +1,36 @@
 import { reloadRoutes } from 'react-static/node';
-import jdown from 'jdown';
 import chokidar from 'chokidar';
 
 chokidar.watch('content').on('all', () => reloadRoutes());
+
+// above is just for reloading
+// below is meat of static.config.js
+
+const path = require('path');
+const { getContent, injectContentIntoTemplates } = require('./lib'); // the little library we are building
 
 export default {
   getSiteData: () => ({
     title: 'React Static'
   }),
   getRoutes: async () => {
-    const { posts, home, about } = await jdown('content');
+    const content = await getContent();
+    const routes = await injectContentIntoTemplates(content);
+    // console.log(routes);
     return [
-      {
-        path: '/',
-        component: 'src/containers/Home',
-        getData: () => ({
-          ...home
-        })
-      },
-      {
-        path: '/about',
-        component: 'src/containers/About',
-        getData: () => ({
-          about
-        })
-      },
-      {
-        path: '/blog',
-        component: 'src/containers/Blog',
-        getData: () => ({
-          posts
-        }),
-        children: posts.map(post => ({
-          path: `/post/${post.slug}`,
-          component: 'src/containers/Post',
-          getData: () => ({
-            post
-          })
-        }))
-      },
+      ...routes,
       {
         is404: true,
-        component: 'src/containers/404'
+        component: 'src/templates/404'
       }
     ];
   },
   webpack: config => {
-    // console.log(config.module.rules);
-    // config.module.rules.unshift({
-    //   test: /.mdx?$/,
-    //   use: ['babel-loader', '@mdx-js/loader']
-    // });
+    config.resolve.alias = {
+      '@components': path.resolve(__dirname, 'components/'),
+      '@lib': path.resolve(__dirname, 'lib/'),
+      '@mdx': path.resolve(__dirname, '.mdx/')
+    };
 
     config.module.rules.map(rule => {
       if (
@@ -67,7 +47,6 @@ export default {
 
       return rule;
     });
-    console.log(config.module.rules);
     return config;
   }
 };

@@ -4,7 +4,6 @@ import { hot } from 'react-hot-loader';
 //
 import Routes from 'react-static-routes';
 
-import Test from './Test.mdx';
 import './app.css';
 
 const App = () => (
@@ -14,11 +13,11 @@ const App = () => (
         <Link exact to="/">
           Home
         </Link>
+        <Link to="/contact">Contact</Link>
         <Link to="/about">About</Link>
         <Link to="/blog">Blog</Link>
       </nav>
       <div className="content">
-        <Test />
         <Routes />
       </div>
     </div>

@@ -10,13 +10,20 @@
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
+    "@babel/core": "^7.1.6",
     "@mdx-js/loader": "^0.16.3",
+    "@mdx-js/mdx": "^0.16.3",
+    "@mdx-js/runtime": "^0.16.3",
     "chokidar": "2.0.3",
+    "fs-path": "^0.0.24",
+    "gray-matter": "^4.0.1",
     "htmr": "0.6.3",
     "jdown": "^0.3.0",
+    "klaw": "^3.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-hot-loader": "^4.0.0-beta.21",
+    "react-jsx-parser": "^1.13.0",
     "react-router": "^4.2.0",
     "react-static": "^5.9.12"
   },

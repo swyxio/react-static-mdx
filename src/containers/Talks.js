@@ -1,8 +1,33 @@
 import React from 'react';
-import { withRouteData } from 'react-static';
+import { withRouteData, Link } from 'react-static';
 import convert from 'htmr';
-//
 
-export default withRouteData(({ talks }) => (
-  <div>{convert(talks.contents)}</div>
-));
+function TalkComponent(talk, i) {
+  const maybe = (x, fx) => x && fx(x);
+  return (
+    <li key={i}>
+      <h3>
+        <Link to={`/talks/${talk.slug}`}>{talk.title}</Link>
+      </h3>
+      {/* {maybe(talk)} */}
+    </li>
+  );
+}
+
+// export default withRouteData(({ bio, pending }) => (
+export default withRouteData(props => {
+  const { talks2018 } = props;
+  console.log({ talks2018 });
+  return (
+    <div>
+      <h3>Recent Talks</h3>
+      <ul>{talks2018.map(TalkComponent)}</ul>
+      <hr />
+      <small>
+        <em>
+          see <Link to="/talks/pending">pending talks</Link>
+        </em>
+      </small>
+    </div>
+  );
+});

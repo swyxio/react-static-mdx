@@ -11,8 +11,7 @@ export default {
   }),
   getRoutes: async () => {
     const props = await jdown('content');
-    const { posts, home, talks, talks2018 } = props;
-    console.log(Object.keys(props.home));
+    const { posts, drafts, home, talks, talks2018 } = props;
     return [
       {
         path: '/',
@@ -22,25 +21,51 @@ export default {
         })
       },
       {
+        path: '/talks/pending',
+        component: 'src/containers/PendingTalks',
+        getData: () => ({
+          ...talks
+        })
+      },
+      {
         path: '/talks',
         component: 'src/containers/Talks',
         getData: () => ({
-          talks
-        })
+          talks2018
+        }),
+        children: [
+          ...talks2018.map(talk => ({
+            path: `/${talk.slug}`,
+            component: 'src/containers/Talk',
+            getData: () => ({
+              talk
+            })
+          }))
+        ]
       },
       {
         path: '/writing',
         component: 'src/containers/Writing',
         getData: () => ({
+          drafts,
           posts
         }),
-        children: posts.map(post => ({
-          path: `/${post.slug}`,
-          component: 'src/containers/Post',
-          getData: () => ({
-            post
-          })
-        }))
+        children: [
+          ...posts.map(post => ({
+            path: `/${post.slug}`,
+            component: 'src/containers/Post',
+            getData: () => ({
+              post
+            })
+          })),
+          ...drafts.map(draft => ({
+            path: `/draft/${draft.slug}`,
+            component: 'src/containers/Post',
+            getData: () => ({
+              draft
+            })
+          }))
+        ]
       },
       {
         is404: true,
@@ -49,11 +74,6 @@ export default {
     ];
   },
   webpack: config => {
-    // console.log(config.module.rules);
-    // config.module.rules.unshift({
-    //   test: /.mdx?$/,
-    //   use: ['babel-loader', '@mdx-js/loader']
-    // });
     config.resolve.alias = {
       '@components': path.resolve(__dirname, 'components/')
     };

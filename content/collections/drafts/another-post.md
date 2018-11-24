@@ -1,6 +1,7 @@
 ---
 title: Another post
 slug: another-post
+category: Advice
 ---
 
-Content...
+this is another sample draft post

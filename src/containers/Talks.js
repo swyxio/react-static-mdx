@@ -17,7 +17,6 @@ function TalkComponent(talk, i) {
 // export default withRouteData(({ bio, pending }) => (
 export default withRouteData(props => {
   const { talks2018 } = props;
-  console.log({ talks2018 });
   return (
     <div>
       <h3>Recent Talks</h3>

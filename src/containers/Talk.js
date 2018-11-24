@@ -16,6 +16,7 @@ const show = value =>
 function showTalk(talk) {
   return Object.entries(talk).map(([k, v]) => {
     if (!v || k === 'slug') return null;
+    if (['contents'].includes(k)) return null;
     return (
       <li key={k}>
         <strong>{cap(k)}</strong>: {show(v)}{' '}
@@ -27,6 +28,6 @@ export default withRouteData(({ talk }) => (
   <div>
     <h3>{talk.title}</h3>
     <ul>{showTalk(talk)}</ul>
-    {/* {convert(post.contents)} */}
+    {convert(post.contents)}
   </div>
 ));

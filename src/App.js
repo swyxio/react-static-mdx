@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Link } from 'react-static';
+import { withRouter, Router, Link } from 'react-static';
 import { hot } from 'react-hot-loader';
 //
 import Routes from 'react-static-routes';
@@ -22,9 +22,19 @@ const App = () => (
       <article className="content">
         <Routes />
       </article>
-      <footer className="footer">My footer</footer>
+      <Footer />
     </div>
   </Router>
 );
+
+const Footer = withRouter(props => {
+  return null;
+  // // disable for now
+  // return (
+  //   <footer className="footer">
+  //     <button onClick={() => props.history.goBack()}>Back</button>{' '}
+  //   </footer>
+  // );
+});
 
 export default hot(module)(App);

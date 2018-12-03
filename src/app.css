@@ -76,6 +76,9 @@ body {
     font-family: 'Cherry Swash', cursive;
     text-align: center;
   }
+  .footer {
+    text-align: left;
+  }
 }
 
 .wrapper > * {
@@ -127,4 +130,24 @@ img {
   max-width: 60rem;
   margin: 0 auto;
   line-height: 2rem;
+}
+
+button {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+button:hover,
+button:focus {
+  background: var(--accent);
+}
+
+button:focus {
+  outline: 1px solid var(--accent);
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(1.1);
 }

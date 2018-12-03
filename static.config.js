@@ -2,6 +2,7 @@ import { reloadRoutes } from 'react-static/node';
 import jdown from 'jdown';
 import path from 'path';
 import chokidar from 'chokidar';
+import React, { Component } from 'react';
 
 chokidar.watch('content').on('all', () => reloadRoutes());
 
@@ -93,5 +94,28 @@ export default {
       return rule;
     });
     return config;
+  },
+
+  Document: class CustomHtml extends Component {
+    render() {
+      const { Html, Head, Body, children, renderMeta } = this.props;
+
+      return (
+        <Html>
+          <Head>
+            <meta charSet="UTF-8" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1"
+            />
+            <link
+              href="https://fonts.googleapis.com/css?family=Cherry+Swash|Oxygen"
+              rel="stylesheet"
+            />
+          </Head>
+          <Body>{children}</Body>
+        </Html>
+      );
+    }
   }
 };

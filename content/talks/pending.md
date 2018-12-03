@@ -31,9 +31,7 @@ Even if you don't work with React, you're likely to have come across a
 React dev super excited about the new Suspense feature in React. What
 is it? Why are people so hyped? Should I care? This talk is an
 introduction for anyone who feels out of the loop - walking through
-the history of the idea and the general UI problems it solves (even
-for React Native!). We will approach this in a framework-agnostic way,
-so that you can see if the Suspense design pattern might make sense in
+the history of the idea and the general UI problems it solves. We will approach this in a framework-agnostic way, so that you can see if the Suspense design pattern might make sense in
 your next project!
 
 ## Reacting Ahead of Time
@@ -56,6 +54,15 @@ back from learning to consider -how- we learn? In this talk we explore
 how Learning in Public can accelerate your career, bring value to your
 professional network, and ultimately make you a better developer, with
 examples all drawn from personal experience with React.
+
+## Learning in Public
+
+Developers are used to the idea of constant learning, especially in
+the fast moving Javascript ecosystem. But how often do we take a step
+back from learning to consider -how- we learn? In this talk we explore
+how Learning in Public can accelerate your career, bring value to your
+professional network, and ultimately make you a better developer, with
+examples all drawn from personal experience.
 
 ## Using the React DevTools Profiler at Netlify
 

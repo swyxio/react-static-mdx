@@ -28,6 +28,6 @@ export default withRouteData(({ talk }) => (
   <div>
     <h3>{talk.title}</h3>
     <ul>{showTalk(talk)}</ul>
-    {convert(post.contents)}
+    {convert(talk.contents)}
   </div>
 ));

@@ -21,10 +21,11 @@ function Draft(draft) {
     <div style={{ fontSize: '1.25rem' }}>
       <h3>Draft: {draft.title}</h3>
       {convert(draft.contents)}
-      <em>
-        You are reading an unpublished, incomplete draft. Questions are welcome
-        but feedback/criticism may be premature.
-      </em>
+      <hr />
+      <blockquote>
+        ⚠️ You are reading an unpublished, incomplete draft. Questions are
+        welcome but feedback/criticism may be premature.
+      </blockquote>
     </div>
   );
 }

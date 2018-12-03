@@ -8,17 +8,21 @@ import './app.css';
 
 const App = () => (
   <Router>
-    <div>
-      <nav>
+    <div className="wrapper">
+      <header className="header">
+        <h1>swyx.io</h1>
+      </header>
+      <nav className="sidebar">
         <Link exact to="/">
           Home
         </Link>
         <Link to="/talks">Talks</Link>
         <Link to="/writing">Writing</Link>
       </nav>
-      <div className="content">
+      <article className="content">
         <Routes />
-      </div>
+      </article>
+      <footer className="footer">My footer</footer>
     </div>
   </Router>
 );

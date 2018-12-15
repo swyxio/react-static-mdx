@@ -33,3 +33,8 @@ Learn in public.
 p.s. Eventually, they'll want to pay you for your help too. A lot more than you think.
 
 _originally drafted [in a gist](https://gist.github.com/sw-yx/9720bd4a30606ca3ffb8d407113c0fe5)_
+
+**Related links**
+
+- https://training.kalzumeus.com/newsletters/archive/do-not-end-the-week-with-nothing
+- https://chriscoyier.net/2013/10/18/mediocre-ideas-showing-up-and-persistence/

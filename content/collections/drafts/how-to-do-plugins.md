@@ -9,7 +9,11 @@ begun: 2018-12-03
 - plugins can conflict
 - plugin config is messy
 - analysis of existing plugin types
+
   - webpack plugins
   - babel plugins
   - gatsby plugins
   - meteor plugins
+
+- Links
+  - all plugin systems are bad https://twitter.com/acdlite/status/1073401531070767104

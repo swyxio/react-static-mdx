@@ -18,15 +18,15 @@ const NavLink = props => (
 
 const App = () => (
   <Router>
-    <Helmet>
-      <meta charSet="utf-8" />
-      <title>swyx.io</title>
-      <link rel="canonical" href="http://swyx.io" />
-    </Helmet>
     <div className="site-container">
       <header className="site-header" role="banner">
         <section className="row padding padding-size-default">
           <div className="column column-size-large-3 column-size-small-12">
+            <Helmet>
+              {/* <meta charSet="utf-8" /> */}
+              <title>swyx.io</title>
+              {/* <link rel="canonical" href="http://swyx.io" /> */}
+            </Helmet>
             <a className="site-header__title" href="/">
               swyx.io
             </a>

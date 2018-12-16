@@ -542,7 +542,7 @@ input[type='submit'] {
   font-size: 2rem;
   line-height: 3rem;
   border-radius: 0;
-  background: #fff;
+  background: #f4ecd8;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -605,7 +605,7 @@ input[type='text'] {
   padding-left: 1rem;
   height: 38px;
   width: 250px;
-  background: #fff;
+  background: #f4ecd8;
 }
 input[type='email']:focus,
 input[type='text']:focus {
@@ -853,7 +853,7 @@ a:hover > .site-footer__glyph-rss {
   z-index: 1;
   text-align: left;
   border-bottom: 1px solid #241f20;
-  background: #fff;
+  background: #f4ecd8;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -865,6 +865,7 @@ a:hover > .site-footer__glyph-rss {
   bottom: 1px;
   height: 4rem;
   line-height: 4rem;
+  font-weight: bold;
 }
 .site-header__title,
 .site-header__title:active,
@@ -890,7 +891,7 @@ a:hover > .site-footer__glyph-rss {
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
-  background-color: #fff;
+  background-color: #f4ecd8;
 }
 .site-container__back-link {
   position: absolute;

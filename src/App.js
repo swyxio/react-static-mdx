@@ -1,10 +1,19 @@
 import React from 'react';
-import { withRouter, Router, Link } from 'react-static';
+import { withRouter, Router, NavLink as NLink } from 'react-static';
 import { hot } from 'react-hot-loader';
-//
 import Routes from 'react-static-routes';
 
 import './app.css';
+
+const NavLink = props => (
+  <NLink
+    className={`site-navigation__item site-navigation__item-position-${
+      props.position
+    }`}
+    activeClassName="site-navigation__item-state-active"
+    {...props}
+  />
+);
 
 const App = () => (
   <Router>
@@ -13,33 +22,23 @@ const App = () => (
         <section className="row padding padding-size-default">
           <div className="column column-size-large-3 column-size-small-12">
             <a className="site-header__title" href="/">
-              swyx
+              swyx.io
             </a>
           </div>
+          <div className="column column-size-large-9 column-size-small-12">
+            <nav className="site-navigation">
+              <NavLink position="top" exact to="/">
+                Home
+              </NavLink>
+              <NavLink position="top" to="/talks">
+                Talks
+              </NavLink>
+              <NavLink position="top" to="/writing">
+                Writing
+              </NavLink>
+            </nav>
+          </div>
         </section>
-        <div className="column column-size-large-9 column-size-small-12">
-          <nav className="site-navigation">
-            <Link
-              className="site-navigation__item site-navigation__item-position-top"
-              exact
-              to="/"
-            >
-              Home
-            </Link>
-            <Link
-              className="site-navigation__item site-navigation__item-position-top"
-              to="/talks"
-            >
-              Talks
-            </Link>
-            <Link
-              className="site-navigation__item site-navigation__item-position-top"
-              to="/writing"
-            >
-              Writing
-            </Link>
-          </nav>
-        </div>
       </header>
       <main role="main" className="site-main-content">
         <Routes />
@@ -55,25 +54,15 @@ const Footer = withRouter(props => {
       <section className="row padding padding-size-default">
         <div className="column column-size-large-9 column-size-small-12">
           <nav className="site-navigation">
-            <Link
-              className="site-navigation__item site-navigation__item-position-bottom"
-              exact
-              to="/"
-            >
+            <NavLink position="bottom" exact to="/">
               Home
-            </Link>
-            <Link
-              className="site-navigation__item site-navigation__item-position-bottom"
-              to="/talks"
-            >
+            </NavLink>
+            <NavLink position="bottom" to="/talks">
               Talks
-            </Link>
-            <Link
-              className="site-navigation__item site-navigation__item-position-bottom"
-              to="/writing"
-            >
+            </NavLink>
+            <NavLink position="bottom" to="/writing">
               Writing
-            </Link>
+            </NavLink>
           </nav>
         </div>
         {/* <div className="column column-size-large-3 column-size-small-12">

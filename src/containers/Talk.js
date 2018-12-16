@@ -34,10 +34,11 @@ export default withRouteData(({ talk }) => (
     <aside className="column column-size-large-3 column-size-small-12">
       <div
         style={{
+          // top: 180,
+          // left: 38,
+          // width: 314,
           top: 180,
-          left: 38,
-          width: 314,
-          position: 'fixed'
+          position: 'sticky'
         }}
       >
         <h1>{talk.title}</h1>

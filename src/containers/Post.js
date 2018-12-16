@@ -1,6 +1,7 @@
 import React from 'react';
 import { withRouteData, Link } from 'react-static';
 import convert from 'htmr';
+import Signup from './Signup';
 
 function Post(post) {
   return (
@@ -49,24 +50,8 @@ export default withRouteData(({ post, draft }) => {
       </aside>
       <div className="column column-size-large-6 column-size-small-12">
         {post ? Post(post) : Draft(draft)}
-        <form
-          action="https://tinyletter.com/pburtchaell"
-          method="post"
-          target="popupwindow"
-          className="site-main-content__newsletter-form"
-        >
-          <p>Receive infrequent updates on projects, interests and fun stuff</p>
-          <input
-            required=""
-            type="email"
-            name="email"
-            id="tlemail"
-            placeholder="email@domain.com"
-          />
-          <input type="hidden" name="embed" value="1" />
-          <input type="submit" value="Subscribe" />
-          <small>Powered by TinyLetter</small>
-        </form>
+
+        <Signup />
       </div>
     </section>
   );

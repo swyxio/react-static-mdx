@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouteData, Link } from 'react-static';
 import convert from 'htmr';
-
+import Signup from './Signup';
 const cap = str => str[0].toUpperCase() + str.slice(1);
 const show = value =>
   value.startsWith('http') ? (
@@ -42,24 +42,7 @@ export default withRouteData(({ talk }) => (
         <ul>{showTalk(talk)}</ul>
         {convert(talk.contents)}
       </div>
-      <form
-        action="https://tinyletter.com/pburtchaell"
-        method="post"
-        target="popupwindow"
-        className="site-main-content__newsletter-form"
-      >
-        <p>Receive infrequent updates on projects, interests and fun stuff</p>
-        <input
-          required=""
-          type="email"
-          name="email"
-          id="tlemail"
-          placeholder="email@domain.com"
-        />
-        <input type="hidden" name="embed" value="1" />
-        <input type="submit" value="Subscribe" />
-        <small>Powered by TinyLetter</small>
-      </form>
+      <Signup />
     </div>
   </section>
 ));

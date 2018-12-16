@@ -8,11 +8,11 @@ function Post(post) {
       <h3>{post.title}</h3>
       {convert(post.contents)}
       <hr />
-      <em>
+      <small>
         Thank you for reading this essay. Do you have any thoughts or criticism
         to share? Feedback and criticism are welcome!{' '}
         <a href="https://twitter.com/swyx">Contact me here.</a>
-      </em>
+      </small>
     </div>
   );
 }
@@ -31,5 +31,43 @@ function Draft(draft) {
 }
 
 export default withRouteData(({ post, draft }) => {
-  return post ? Post(post) : Draft(draft);
+  const content = post || draft;
+  return (
+    <section className="row padding padding-size-large">
+      <aside className="column column-size-large-3 column-size-small-12">
+        <div
+          style={{
+            top: 180,
+            left: 38,
+            width: 314,
+            position: 'fixed'
+          }}
+        >
+          <h1>{content.title}</h1>
+          <small>date tbd</small>
+        </div>
+      </aside>
+      <div className="column column-size-large-6 column-size-small-12">
+        {post ? Post(post) : Draft(draft)}
+        <form
+          action="https://tinyletter.com/pburtchaell"
+          method="post"
+          target="popupwindow"
+          className="site-main-content__newsletter-form"
+        >
+          <p>Receive infrequent updates on projects, interests and fun stuff</p>
+          <input
+            required=""
+            type="email"
+            name="email"
+            id="tlemail"
+            placeholder="email@domain.com"
+          />
+          <input type="hidden" name="embed" value="1" />
+          <input type="submit" value="Subscribe" />
+          <small>Powered by TinyLetter</small>
+        </form>
+      </div>
+    </section>
+  );
 });

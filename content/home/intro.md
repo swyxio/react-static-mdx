@@ -1,11 +1,7 @@
-<div style="margin-top: 20px">
-  <img
-    src="https://user-images.githubusercontent.com/35976578/39973926-0f34b514-56f3-11e8-9c4e-59547fedb719.jpg"
-    height=100
-    width=100
-    style="border-radius: '50%'; float: right;margin: 20px"
-  >
-</div>
+<img
+src="https://user-images.githubusercontent.com/35976578/39973926-0f34b514-56f3-11e8-9c4e-59547fedb719.jpg"
+class="swyxpic"
+/>
 
 # Hello there!
 

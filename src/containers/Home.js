@@ -4,24 +4,20 @@ import convert from 'htmr';
 
 export default withRouteData(
   class extends React.Component {
-    // state = { Thing: null };
-    // componentDidMount = async () => {
-    //   const Thing = await import(path);
-    //   this.setState({ Thing });
-    // };
-    // componentDidMount = () => {
-    //   const path = '../Test.mdx';
-    //   import(path).then(Thing => this.setState({ Thing: Thing.default }));
-    // };
-
     render() {
       const { currentprojects, intro, opensource } = this.props;
       return (
-        <div>
-          <section>{convert(intro.contents)}</section>
-          <section>{convert(opensource.contents)}</section>
-          <section>{convert(currentprojects.contents)}</section>
-        </div>
+        <section className="row padding padding-size-large">
+          <div className="column column-size-large-9 column-size-small-12">
+            {convert(intro.contents)}
+          </div>
+          <div className="column column-size-large-9 column-size-small-12">
+            {convert(opensource.contents)}
+          </div>
+          <div className="column column-size-large-9 column-size-small-12">
+            {convert(currentprojects.contents)}
+          </div>
+        </section>
       );
     }
   }

@@ -6,9 +6,9 @@ function TalkComponent(talk, i) {
   const maybe = (x, fx) => x && fx(x);
   return (
     <li key={i}>
-      <h3>
+      <p className="list-item__title">
         <Link to={`/talks/${talk.slug}`}>{talk.title}</Link>
-      </h3>
+      </p>
       {/* {maybe(talk)} */}
     </li>
   );
@@ -18,15 +18,20 @@ function TalkComponent(talk, i) {
 export default withRouteData(props => {
   const { talks2018 } = props;
   return (
-    <div>
-      <h3>Recent Talks</h3>
-      <ul>{talks2018.map(TalkComponent)}</ul>
-      <hr />
-      <small>
-        <em>
-          see <Link to="/talks/pending">pending talks</Link>
-        </em>
-      </small>
-    </div>
+    <section className="row padding padding-size-large">
+      <aside className="column column-size-large-3 column-size-small-12">
+        <h1>Recent Talks</h1>
+      </aside>
+      <div className="column column-size-large-6 column-size-small-12 writing-page__content">
+        <ul>{talks2018.map(TalkComponent)}</ul>
+      </div>
+      <aside className="column column-size-large-3 column-size-small-12 writing-page__sidebar-right">
+        <small>
+          <em>
+            see <Link to="/talks/pending">pending talks</Link>
+          </em>
+        </small>
+      </aside>
+    </section>
   );
 });

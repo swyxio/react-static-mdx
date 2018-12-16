@@ -2,6 +2,7 @@ import React from 'react';
 import { withRouter, Router, NavLink as NLink } from 'react-static';
 import { hot } from 'react-hot-loader';
 import Routes from 'react-static-routes';
+import { Helmet } from 'react-helmet';
 
 import './app.css';
 
@@ -17,6 +18,11 @@ const NavLink = props => (
 
 const App = () => (
   <Router>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>swyx.io</title>
+      <link rel="canonical" href="http://swyx.io" />
+    </Helmet>
     <div className="site-container">
       <header className="site-header" role="banner">
         <section className="row padding padding-size-default">

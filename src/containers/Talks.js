@@ -1,6 +1,7 @@
 import React from 'react';
 import { withRouteData, Link } from 'react-static';
 import convert from 'htmr';
+import { Helmet } from 'react-helmet';
 
 function TalkComponent(talk, i) {
   const maybe = (x, fx) => x && fx(x);
@@ -19,6 +20,11 @@ export default withRouteData(props => {
   const { talks2018 } = props;
   return (
     <section className="row padding padding-size-large">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>swyx.io | Talks</title>
+        <link rel="canonical" href="http://swyx.io/talks" />
+      </Helmet>
       <aside className="column column-size-large-3 column-size-small-12">
         <h1>Recent Talks</h1>
       </aside>

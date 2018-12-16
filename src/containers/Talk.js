@@ -2,6 +2,8 @@ import React from 'react';
 import { withRouteData, Link } from 'react-static';
 import convert from 'htmr';
 import Signup from './Signup';
+
+import { Helmet } from 'react-helmet';
 const cap = str => str[0].toUpperCase() + str.slice(1);
 const show = value =>
   value.startsWith('http') ? (
@@ -24,6 +26,11 @@ function showTalk(talk) {
 }
 export default withRouteData(({ talk }) => (
   <section className="row padding padding-size-large">
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>swyx.io | {talk.title}</title>
+      {/* <link rel="canonical" href="http://swyx.io" /> */}
+    </Helmet>
     <aside className="column column-size-large-3 column-size-small-12">
       <div
         style={{

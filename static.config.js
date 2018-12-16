@@ -13,6 +13,7 @@ export default {
   getRoutes: async () => {
     const props = await jdown('content');
     const { posts, drafts, home, talks, talks2018 } = props;
+    // console.log({ props: Object.keys(props.resources[0]) });
     return [
       {
         path: '/',

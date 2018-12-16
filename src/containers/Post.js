@@ -3,6 +3,7 @@ import { withRouteData, Link } from 'react-static';
 import convert from 'htmr';
 import Signup from './Signup';
 
+import { Helmet } from 'react-helmet';
 function Post(post) {
   return (
     <div style={{ fontSize: '1.25rem' }}>
@@ -35,6 +36,10 @@ export default withRouteData(({ post, draft }) => {
   const content = post || draft;
   return (
     <section className="row padding padding-size-large">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>swyx.io | {content.title}</title>
+      </Helmet>
       <aside className="column column-size-large-3 column-size-small-12">
         <div
           style={{

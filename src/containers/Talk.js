@@ -1,9 +1,7 @@
 import React from 'react';
 import { withRouteData, Link } from 'react-static';
 import convert from 'htmr';
-//
 
-// const maybe = (x, fx) => x && fx(x);
 const cap = str => str[0].toUpperCase() + str.slice(1);
 const show = value =>
   value.startsWith('http') ? (

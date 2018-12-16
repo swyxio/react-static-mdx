@@ -29,7 +29,7 @@ export default withRouteData(({ talk }) => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>swyx.io | {talk.title}</title>
-      {/* <link rel="canonical" href="http://swyx.io" /> */}
+      {/* <link rel="canonical" href="https://swyx.io" /> */}
     </Helmet>
     <aside className="column column-size-large-3 column-size-small-12">
       <div

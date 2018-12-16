@@ -8,7 +8,7 @@ export default withRouteData(({ posts, drafts }) => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>swyx.io | Writing</title>
-      <link rel="canonical" href="http://swyx.io/writing" />
+      <link rel="canonical" href="https://swyx.io/writing" />
     </Helmet>
     <aside className="column column-size-large-3 column-size-small-12">
       <h1>My Writing</h1>

@@ -8,7 +8,7 @@ class="swyxpic"
 This is the homepage of Shawn Wang on the web!
 
 - 🗺️ I'm from Singapore 🇸🇬 and live in NYC 🗽.
-- 👨🏼‍🎓 Proud [Fullstack](https://twitter.com/fullstack), [Wharton/Huntsman](http://huntsman.upenn.edu/) and [UChicago](http://finmath.uchicago.edu/) alum, current [GATech OMSCS](https://www.omscs.gatech.edu/) student.
+- 👨🏼‍🎓 Proud [Fullstack](https://twitter.com/fullstack), [Wharton/Huntsman](https://huntsman.upenn.edu/) and [UChicago](https://finmath.uchicago.edu/) alum, current [GATech OMSCS](https://www.omscs.gatech.edu/) student.
 - 💰 I used to trade stocks, currency and derivatives at some of the largest [banks](https://www.sc.com/) and [hedge funds](https://www.bamfunds.com/) in the world (with [Haskell](https://www.haskell.org/) and [Python](https://www.python.org/)).
 - ⚛️ Most recently I worked on the [Typescript](https://www.typescriptlang.org/)/[React](https://reactjs.org/) [design system](https://designsystemsrepo.netlify.com/) at [Two Sigma](https://www.twosigma.com/)'s insurance startup.
 - 🔥 Now I work on Developer Experience at [Netlify!](https://netlify.com)

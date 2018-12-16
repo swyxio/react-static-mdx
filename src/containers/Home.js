@@ -12,7 +12,7 @@ export default withRouteData(
           <Helmet>
             <meta charSet="utf-8" />
             <title>swyx.io | Home</title>
-            <link rel="canonical" href="http://swyx.io" />
+            <link rel="canonical" href="https://swyx.io" />
           </Helmet>
           <div className="column column-size-large-6 column-size-small-12">
             {convert(intro.contents)}

@@ -25,7 +25,7 @@ const App = () => (
             <Helmet>
               {/* <meta charSet="utf-8" /> */}
               <title>swyx.io</title>
-              {/* <link rel="canonical" href="http://swyx.io" /> */}
+              {/* <link rel="canonical" href="https://swyx.io" /> */}
             </Helmet>
             <a className="site-header__title" href="/">
               swyx.io

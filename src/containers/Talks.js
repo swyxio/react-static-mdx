@@ -23,7 +23,7 @@ export default withRouteData(props => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>swyx.io | Talks</title>
-        <link rel="canonical" href="http://swyx.io/talks" />
+        <link rel="canonical" href="https://swyx.io/talks" />
       </Helmet>
       <aside className="column column-size-large-3 column-size-small-12">
         <h1>Recent Talks</h1>

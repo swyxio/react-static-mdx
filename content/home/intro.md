@@ -3,15 +3,13 @@ src="https://user-images.githubusercontent.com/35976578/39973926-0f34b514-56f3-1
 class="swyxpic"
 />
 
-# Hello there!
+# Hello there[!](https://www.youtube.com/watch?v=rEq1Z0bjdwc)
 
 This is the homepage of Shawn Wang on the web!
 
 - 🗺️ I'm from Singapore 🇸🇬 and live in NYC 🗽.
 - 👨🏼‍🎓 Proud [Fullstack](https://twitter.com/fullstack), [Wharton/Huntsman](https://huntsman.upenn.edu/) and [UChicago](https://finmath.uchicago.edu/) alum, current [GATech OMSCS](https://www.omscs.gatech.edu/) student.
-- 💰 I used to trade stocks, currency and derivatives at some of the largest [banks](https://www.sc.com/) and [hedge funds](https://www.bamfunds.com/) in the world (with [Haskell](https://www.haskell.org/) and [Python](https://www.python.org/)).
-- ⚛️ Most recently I worked on the [Typescript](https://www.typescriptlang.org/)/[React](https://reactjs.org/) [design system](https://designsystemsrepo.netlify.com/) at [Two Sigma](https://www.twosigma.com/)'s insurance startup.
-- 🔥 Now I work on Developer Experience at [Netlify!](https://netlify.com)
-- 🎤 I also did a fair amount of Singing/Acapella back in the day!
+- ⚛️ I'm pretty active in the React community - I help moderate [/r/reactjs](https://reddit.com/r/reactjs) and speak [quite a bit](https://www.youtube.com/watch?v=eRvbh5C6Lj0&list=PLI0LxsJ2mt_FFRiBVLbxjSnw41Ta9Nkhc) at ReactNYC (see my [conference](https://www.swyx.io/talks/react-not-reactive) and [other talks here](/talks))
+- 🔥 I work on Developer Experience at [Netlify](https://netlify.com), make [⚛️ React and 📜 Typescript lessons](https://egghead.io/courses/design-systems-with-react-and-typescript-in-storybook) at Egghead.io and previously worked with [banks](https://www.sc.com/) and [hedge](https://www.bamfunds.com/) [funds](https://www.twosigma.com/). Fun fact: I have a CFA!
 
 > You can find me on [Twitter](https://twitter.com/swyx) and [Github](https://github.com/sw-yx)!

@@ -2,6 +2,7 @@
 title: Learn In Public
 slug: learn-in-public
 category: Advice
+date: 2018-06-19
 ---
 
 If there's a golden rule, it's this one, so I put it first. All the other rules are more or less elaborations of this rule #1.

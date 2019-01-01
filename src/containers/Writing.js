@@ -2,7 +2,9 @@ import React from 'react';
 import { withRouteData, Link } from 'react-static';
 
 import { Helmet } from 'react-helmet';
+import Signup from './Signup';
 
+const sortFn = (a, b) => new Date(a.date) - new Date(b.date);
 export default withRouteData(({ posts, drafts }) => (
   <section className="row padding padding-size-large">
     <Helmet>
@@ -21,12 +23,13 @@ export default withRouteData(({ posts, drafts }) => (
       </em>
       <hr />
       <ul>
-        {posts.map(post => (
+        {posts.sort(sortFn).map(post => (
           <li key={post.slug}>
             <Link to={`/writing/${post.slug}/`}>{post.title}</Link>
           </li>
         ))}
       </ul>
+      <Signup />
     </div>
     <aside className="column column-size-large-3 column-size-small-12 writing-page__sidebar-right">
       <div>

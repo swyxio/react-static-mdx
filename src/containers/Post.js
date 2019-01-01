@@ -51,7 +51,9 @@ export default withRouteData(({ post, draft }) => {
           }}
         >
           <h1>{content.title}</h1>
-          <small>{content.date || 'date tbd'}</small>
+          <small>
+            {new Date(content.date).toLocaleDateString() || 'date tbd'}
+          </small>
         </div>
       </aside>
       <div className="column column-size-large-6 column-size-small-12">

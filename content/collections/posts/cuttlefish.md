@@ -5,7 +5,7 @@ category: Rants
 date: 2019-01-15
 ---
 
-![https://sw-yx.tinytake.com/sf/MzIzMTM5MV85NjgyODI0](https://sw-yx.tinytake.com/sf/MzIzMTM5MV85NjgyODI0)
+![https://sw-yx.tinytake.com/media/93bf88?filename=1547580830746_15-01-2019-11-33-49.png&sub_type=thumbnail_preview&type=attachment&width=698&height=241&&salt=MzIzMTM5MV85NjgyODI0](https://sw-yx.tinytake.com/media/93bf88?filename=1547580830746_15-01-2019-11-33-49.png&sub_type=thumbnail_preview&type=attachment&width=698&height=241&&salt=MzIzMTM5MV85NjgyODI0)
 
 ## Weird
 
@@ -31,13 +31,13 @@ Cuttlefish are color blind (they only have a single photoreceptor), but yet they
 
 It makes sense if you have a brain the size of a cuttlefish. ![http://www.kheper.net/topics/intelligence/cephal_fish_growth.gif](http://www.kheper.net/topics/intelligence/cephal_fish_growth.gif) (The largest of any invertebrates)
 
-Cuttlefish are much better color changers than chameleons. In fact they can change colors so fast they can shimmer and hypnotize their prey. !https://media.giphy.com/media/8D4NaGxz45j32/giphy.gif](https://media.giphy.com/media/8D4NaGxz45j32/giphy.gif).
+Cuttlefish are much better color changers than chameleons. In fact they can change colors so fast they can shimmer and hypnotize their prey. ![https://media.giphy.com/media/8D4NaGxz45j32/giphy.gif](https://media.giphy.com/media/8D4NaGxz45j32/giphy.gif).
 
 [Sepia](<https://en.wikipedia.org/wiki/Sepia_(color)>) is named for the reddish-brown ink of Cuttlefish (the common cuttlefish's Scientific name is _Sepia officinalis_). They can eject it in two ways - the normal smoke screen to hide itself, but also they can wrap the ink in mucous to create a shadow duplicate roughly the size of itself, called a "pseudomorph", to act as a decoy.
 
 ## Blood
 
-Cuttlefish have green-blue blood, because they have hemocyanin instead of hemoglobin. ![https://www.pbs.org/wgbh/nova/camo/anat-nf.html](https://www.pbs.org/wgbh/nova/camo/anat-nf.html)
+Cuttlefish have green-blue blood, because they have hemocyanin instead of hemoglobin. ([Source](https://www.pbs.org/wgbh/nova/camo/anat-nf.html))
 
 Cuttlefish have three hearts. ❤️❤️❤️.
 

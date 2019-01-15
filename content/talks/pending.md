@@ -1,3 +1,102 @@
+## A Skeptic's Intro to the JAMStack
+
+A delightful exploration of how JavaScript web apps, serverless APIs, the static-site renaissance, and Git-centric workflows are enabling a whole new architecture, from a fellow skeptic wary of marketing acronyms.
+
+## Getting started with React + TypeScript
+
+tbd
+
+## Learning from 100,000 React Developers
+
+React communities exist in many spaces online, and they don't all overlap. In this talk we explore statistics and quotes from /r/reactjs, answering burning questions everybody wants to know:
+What technologies are people interested in? What do beginners struggle with? What are companies hiring for?
+
+At present growth rates, /r/reactjs will surpass 100,000 subscribers in April, and I feel React Amsterdam would be the perfect place to celebrate this benchmark and reflect on our learnings and what the broader community can take away from it.
+
+Talk structure:
+
+- Why do people like discussing React on Reddit?
+- The recent history of React in 2018 and 2019
+- Projects that React beginners can try
+- What do beginners struggle with? A visualization
+- Unresolved debates in React
+- What are the biggest library and blogpost launches?
+- What are companies hiring for?
+- Dark Matter Devs and why we all need to participate more in the online discussion
+
+## STAR Apps: Design Systems, TypeScript, Apollo GraphQL, and React
+
+A new front-end stack is emerging. They involve building Design Systems for visual consistency, using TypeScript for internal consistency, Apollo GraphQL for data manipulation, and server- or statically-rendered React for data representation. In this talk we explore how these trends fit together, and _why_ leading product teams from AirBnb to the New York Times are embracing them.
+
+Talk structure:
+
+- Introducing and defining Design Systems and the tools used
+- Introducing TypeScript and why teams have embraced it for large React apps
+- Introducing Apollo and why it has become the leading GraphQL client for React
+- Discussing server-side (Next.js) vs static (Gatsby) React and React is growing at ~70% annually
+- Exploring combinations:
+  - Design Systems + React: React-sketchapp, Framer X
+  - GraphQL + React: Discussing the componentization of Data
+  - TypeScript + React: Documentation, and static checking vs proptypes
+- Inviting the audience to explore how these trends are expressions of a deeper underlying desire
+  for better tooling that matches the needs of product engineering teams.
+
+## JAMStack Jumpstart: Gatsby + Netlify
+
+There is a lot of developer and investment interest in JAMStack technologies:
+from the serverless movement to new authentication models to continuous atomic deployment
+to the static site generator renaissance. But with so many new terms and options, it is hard
+for people to figure out where to start.
+
+This workshop will teach developers to set up a simple but state of the art Gatsby and Netlify
+stack, which lets people create blazing fast sites and apps with React and GraphQL, backed up by
+a continuous deployment and serverless platform complete with authentication and CMS.
+It has never been easier to get a great Lighthouse score, or to deploy complex, secure webapps for free.
+
+Links:
+
+- Info on JAMstack: https://jamstack.org/
+- VC interest in JAMStack:
+  - a16z: https://a16z.com/2017/08/09/netlify/
+  - KPCB: https://www.kleinerperkins.com/perspectives/netlify-modernizing-the-web
+  - CRV: https://medium.com/@CRVVC/the-jamstack-startup-landscape-c06cc3cdb917
+  - Redpoint: https://medium.com/memory-leak/the-jamstack-its-pretty-sweet-e0834e4e6bb7
+- Developer interest in JAMStack:
+  - Conf https://www.youtube.com/channel/UC8bRyfU7ycLXnEBfvdorpUg
+  - Hackathon https://hackathon.freecodecamp.org/
+
+## Hooked on Change
+
+React Hooks are finally here! Nothing's changed, yet everything's changed.
+Hooks don't unlock any new capability in React, so what's the big fuss?
+In this talk we introduce the Hooks API, explore the wonderful world of
+custom hooks, and finally discussed how your APIs and tools can also be
+Optimized for Change.
+
+5 reasons:
+
+- Hooks represent the React team's vision of the future
+- There is a lot of FUD around Hooks from people who don't see the benefits
+- The concept of Hooks have a broader applicability even outside React; they may even be adopted in Vue
+- Custom Hooks make injecting and refactoring any functionality easy
+- Library authors and app architects alike can draw broad API design lessons from Hooks, and apply it in many other contexts
+
+Links:
+
+- Speaking:
+- React Rally: https://www.youtube.com/watch?v=nyFHR0dDZo0
+- Hooks and Concurrent React: https://youtu.be/vhWaMPQhMLQ
+- Info on Hooks: https://reactjs.org/hooks
+
+## JAM Stack: The Total Victory of JavaScript
+
+A lot has happened in the five years since Val Karpov coined
+the MEAN stack to describe "Full Stack" Javascript stacks.
+React rose to dominance, AWS Lambda started the Serverless
+movement, and Static Site Generators came back in a big way.
+What is driving this new stack of Javascript, APIs, and Markup?
+This is the story of how a JAM Stack cynic finally turned into a believer.
+
 ## I can Babel Macros (and So Can You!)
 
 Babel macros are a new way to solve DX and UX tradeoffs by

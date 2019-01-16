@@ -34,11 +34,29 @@ function Draft(draft) {
 
 export default withRouteData(({ post, draft }) => {
   const content = post || draft;
+  const desc = `A swyx.io essay: ${content.title}`
   return (
     <section className="row padding padding-size-large">
       <Helmet>
         <meta charSet="utf-8" />
         <title>swyx.io | {content.title}</title>
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={content.title} />
+        <meta
+          property="og:description"
+          content={desc}
+        />
+        {/* <meta property="og:image" content="LINK TO THE IMAGE FILE" /> */}
+        <meta
+          property="og:url"
+          content={`https://swyx.io/writing/${content.slug}`}
+        />
+        <meta property="og:site_name" content={`swyx.io | ${content.title}`} />
+        <meta name="twitter:title" content={content.title}>
+        <meta name="twitter:description" content={desc}>
+        {/* <meta name="twitter:image" content="LINK TO IMAGE"> */}
+        <meta name="twitter:site" content="@swyx">
+        <meta name="twitter:creator" content="@swyx"></meta>
       </Helmet>
       <aside className="column column-size-large-3 column-size-small-12">
         <div

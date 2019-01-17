@@ -1,3 +1,7 @@
+## Getting started with React + TypeScript
+
+TypeScript is increasingly being adopted in React apps at scale, from AirBnb to Shopify to Atlassian. In this live coding talk, we walk through best practices and introduce everything you need to know to get started, WITHOUT getting lost in arcane generic type logic!
+
 ## A Skeptic's Intro to the JAMStack
 
 A delightful exploration of how JavaScript web apps, serverless APIs, the static-site renaissance, and Git-centric workflows are enabling a whole new architecture, from a fellow skeptic wary of marketing acronyms.

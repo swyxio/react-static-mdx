@@ -196,12 +196,6 @@ library has built one - except in service workers! In this talk we go
 through what React Suspense is, then explore a prototype of how
 "Suspense Workers" could be useful in future Concurrent React apps.
 
-## The Rise of Immer in React
-
-Immer is one of the most successful open source launches in 2018, and
-has found particular favor in the React community. What problems does
-it solve, and why does it fit React's design principles so well?
-
 ## Atomic React Deploys
 
 React's logo is an atom. The component philosophy encourages Atomic

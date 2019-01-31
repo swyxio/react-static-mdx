@@ -1,3 +1,9 @@
+## Serverless GraphQL
+
+GraphQL is often synonymous with the return of Monolithic architecture. Does this mean the benefits of Serverless are irrelevant? In this talk we explore how Serverless and GraphQL work together, explore ways to stitch individual function schemas, and get hard numbers to fight performance concerns.
+
+This talk is a gentle reintroduction to the serverless movement for skeptics, who may not have been paying attention to all the GraphQL capabilities that are slowly emerging even on the Serverless side because most tutorials assume monolithic architectures. Nothing in the spec requires a monolith, and in fact resolvers are all mini-serverless functions anyway. We just lack the tools and wholistic viewpoint to address this gap in the market. In this talk we will discuss what we're doing at Netlify to fix that
+
 ## Getting started with React + TypeScript
 
 TypeScript is increasingly being adopted in React apps at scale, from AirBnb to Shopify to Atlassian. In this live coding talk, we walk through best practices and introduce everything you need to know to get started, WITHOUT getting lost in arcane generic type logic!

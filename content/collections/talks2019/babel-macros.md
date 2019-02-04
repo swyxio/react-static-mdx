@@ -2,6 +2,7 @@
 
 title: I can Babel Macros (and So Can You!)
 slug: babel-macros
+topic: Babel
 venues: JSConf
 date: Feb 2019
 url: https://www.jsconfhi.com/schedule/

@@ -1,6 +1,7 @@
 ---
 title: Why React is -NOT- Reactive
 slug: react-not-reactive
+topic: React, Reactivity
 venues: ReactNYC, React Rally
 slides: https://slides.com/swyx/why-react-is-not-reactive
 desc: diving into React's push-pull data flow and the importance of scheduling in React

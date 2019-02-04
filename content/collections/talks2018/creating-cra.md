@@ -1,6 +1,7 @@
 ---
 title: Creating Create-React-App
 slug: creating-cra
+topic: React
 venues: ReactNYC
 github: https://github.com/sw-yx/create-react-app-parcel
 video: https://www.youtube.com/watch?v=Et571vTAtT8

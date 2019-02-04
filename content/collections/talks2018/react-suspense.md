@@ -1,6 +1,7 @@
 ---
 title: React Suspense
 slug: react-suspense
+topic: React
 venues: ReactNYC
 video: https://www.youtube.com/watch?v=eRvbh5C6Lj0
 slides: https://slides.com/swyx/react-suspense

@@ -1,6 +1,7 @@
 ---
 title: A Gentle Introduction to React and TypeScript
 slug: react-typescript
+topic: TypeScript
 venues: Real World React
 date: Jan 2019
 video: https://www.youtube.com/watch?v=TcDFd9W2Y2A

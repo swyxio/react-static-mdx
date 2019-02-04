@@ -4,7 +4,15 @@ import convert from 'htmr';
 import { Helmet } from 'react-helmet';
 import Signup from './Signup';
 
-const sortTalk = (a, b) => a.venues.length - b.venues.length;
+const sortTalk = (a, b) => {
+  var topicA = a.topic.toLowerCase(),
+    topicB = b.topic.toLowerCase();
+  if (topicA < topicB)
+    //sort string ascending
+    return -1;
+  if (topicA > topicB) return 1;
+  return 0; //default return value (no sorting)
+};
 
 function TalkComponent(talk, i) {
   const maybe = (x, fx) => x && fx(x);
@@ -18,11 +26,12 @@ function TalkComponent(talk, i) {
           border: '1px solid blue'
         }}
       >
-        {talk.venues}
+        {talk.topic}
       </pre>
       <span className="list-item__title">
         <Link to={`/talks/${talk.slug}`}>{talk.title}</Link>
       </span>
+      @ <em>{talk.venues}</em>
       {/* {maybe(talk)} */}
     </li>
   );

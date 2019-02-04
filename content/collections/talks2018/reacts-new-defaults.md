@@ -2,6 +2,7 @@
 title: React's New Defaults
 slug: reacts-new-defaults
 venues: Bay Area React
+topic: React
 github: https://github.com/sw-yx/talk-reacts-new-defaults
 video: https://youtu.be/vhWaMPQhMLQ
 desc: a talk about the Why of Suspense, Time Slicing, and Hooks in React

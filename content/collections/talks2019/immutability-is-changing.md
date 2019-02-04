@@ -1,7 +1,8 @@
 ---
 title: Immutability is Changing - From Immutable.js to Immer
 slug: immutability-is-changing
-venues: Real World React
+topic: Immutability
+venues: ForwardJS
 date: Jan 2019
 url: https://forwardjs.com/schedule
 blog: https://www.netlify.com/blog/2018/09/12/the-rise-of-immer-in-react/

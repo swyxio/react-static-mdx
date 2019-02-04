@@ -8,8 +8,9 @@ begun: 2018-12-15
 ## Communication
 
 1. find and repeat a core message on three pillars
-2. answer the question you want, don't buy into others' frame
+2. don't take questions. if you do, repeat the question, but answer the question you want, don't buy into others' frame
 3. Stay positive
+4. record it
 
 More:
 

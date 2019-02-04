@@ -19,3 +19,4 @@
 - Jun 14-16 - [JSConf Asia](https://2019.jsconf.asia/) - React Hooks + Gatsby + Netlify JAMstack Workshop
 - end June - JAMStackConf London
 - Oct 5 - [Asbury Agile](http://www.asburyagile.com/) - Unannounced talk + workshop
+- mid Oct - JAMStackConf SF

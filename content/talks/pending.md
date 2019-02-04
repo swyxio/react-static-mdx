@@ -1,3 +1,9 @@
+## You Gotta Love JAMStack
+
+The JAMStack stands for JavaScript, APIs, and Markup, and at first glance it seems a truism - of course everyone uses that, right? What kind of stack is that? At its core, however, it describes a new architecture for web apps and sites that is at the confluence of multiple trends in serverless, JavaScript frameworks, static site generators, and Git-centric workflows. At the center of it all: The All-Powerful Frontend Developer!
+
+JAMStack, Serverless, Devops, Frontend
+
 ## Serverless GraphQL
 
 GraphQL is often synonymous with the return of Monolithic architecture. Does this mean the benefits of Serverless are irrelevant? In this talk we explore how Serverless and GraphQL work together, explore ways to stitch individual function schemas, and get hard numbers to fight performance concerns.
@@ -25,10 +31,6 @@ CTOs, VP Engs, Web App Team Leads
 > What's the takeaway for the audience?
 
 - JAMStack is shorthand for a fundamental rethinking of web architecture taking advantage of latest technologies in serverless and JavaScript.
-
-## Getting started with React + TypeScript
-
-tbd
 
 ## Learning from 100,000 React Developers
 

@@ -12,8 +12,8 @@ export default {
   }),
   getRoutes: async () => {
     const props = await jdown('content');
-    const { posts, drafts, home, talks, talks2018 } = props;
-    // console.log({ props: Object.keys(props.resources[0]) });
+    const { posts, drafts, home, talks, talks2018, talks2019 } = props;
+    const recentTalks = { ...talks2019, talks2018 };
     return [
       {
         path: '/',
@@ -33,10 +33,10 @@ export default {
         path: '/talks',
         component: 'src/containers/Talks',
         getData: () => ({
-          talks2018
+          recentTalks
         }),
         children: [
-          ...talks2018.map(talk => ({
+          ...recentTalks.map(talk => ({
             path: `/${talk.slug}`,
             component: 'src/containers/Talk',
             getData: () => ({

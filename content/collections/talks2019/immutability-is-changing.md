@@ -1,5 +1,6 @@
 ---
-title: Immutability is Changing - From Immutable.js to Immer
+title: Immutability is Changing
+subtitle: From Immutable.js to Immer
 slug: immutability-is-changing
 topic: Immutability
 venues: ForwardJS

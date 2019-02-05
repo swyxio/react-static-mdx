@@ -1,5 +1,5 @@
 ---
-title: A Gentle Introduction to React and TypeScript
+title: Introduction to React and TypeScript
 slug: react-typescript
 topic: TypeScript
 venues: Real World React

@@ -24,3 +24,5 @@ More:
 - https://overreacted.io/preparing-for-tech-talk-part-1-motivation/
 
 share an inspiring idea by re-explaining it in a simpler way.
+
+memorize and improvise

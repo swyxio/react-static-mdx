@@ -38,7 +38,14 @@ Points I wanna cover:
   - cathedral vs bazaar
   - There's a third way
 - Act 2: Food Problems?
+  - Quick Intro to GraphQL
+    - combinatorial explosion of APIs
+    - colocating data needs
+    - faster iteration
   - GraphQL DD problem
+    - adding a field
+    - mistyping braces
+    - adding aliases
 - Act 3: Meet Maui
   - What if we had a babel plugin
   - Introducing ASTExplorer
@@ -50,11 +57,18 @@ Points I wanna cover:
     - extensive config
 - Act 5: Part the Sea
   - Babel Macros
-  - Punch a hole in your wall
+    - Punch a hole in your wall
+    - Babel Plugin Plugins
+    - Compile time Libraries
   - demo some other macros
   - big reveal - some visual
+  - Compilers are the next frontier
 - Act 6: New Voyage
   - how to get started
+    - AST explorer
+    - familiarize yourself with an AST
+    - babel handbook
+    - kent dodds' workshops
   - Go Forth and Explore!
 
 Talk outline:

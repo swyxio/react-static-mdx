@@ -14,6 +14,7 @@ export default {
     const props = await jdown('content');
     const { posts, drafts, home, talks, talks2018, talks2019 } = props;
     const recentTalks = [...talks2019, ...talks2018];
+    // console.log(recentTalks.map(x => Object.keys(x)));
     return [
       {
         path: '/',

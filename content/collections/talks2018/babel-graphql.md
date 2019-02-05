@@ -2,8 +2,9 @@
 title: Babel ❤️ GraphQL
 slug: babel-heart-graphql
 topic: Babel
-venues: React Boston
+venues: React Boston, GraphQLNYC
 video: https://youtu.be/7OHXz7vXC0g
+video2: https://youtu.be/30wOsJOluA4?t=497
 link: https://babel-blade.netlify.com/
 github: https://github.com/sw-yx/babel-blade
 feedback: https://shawnwang3.typeform.com/to/OYtqZ7

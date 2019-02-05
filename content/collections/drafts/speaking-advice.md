@@ -21,3 +21,6 @@ More:
 - https://github.com/coryhouse/speaker-starter-kit
 - https://medium.com/@joshuawcomeau/lessons-learned-as-a-conference-speaker-7d74750bc618
 - How to Prepare a Talk https://www.deconstructconf.com/blog/how-to-prepare-a-talk
+- https://overreacted.io/preparing-for-tech-talk-part-1-motivation/
+
+share an inspiring idea by re-explaining it in a simpler way.

@@ -21,8 +21,8 @@ function TalkComponent(talk, i) {
       <pre
         style={{
           display: 'inline',
-          padding: 5,
-          marginRight: 5,
+          margin: 5,
+          // marginRight: 5,
           border: '1px solid blue'
         }}
       >
@@ -31,7 +31,8 @@ function TalkComponent(talk, i) {
       <span className="list-item__title">
         <Link to={`/talks/${talk.slug}`}>{talk.title}</Link>
       </span>
-      @ <em>{talk.venues}</em>
+      {' @ '}
+      <em>{talk.venues}</em>
       {/* {maybe(talk)} */}
     </li>
   );
@@ -40,6 +41,7 @@ function TalkComponent(talk, i) {
 // export default withRouteData(({ bio, pending }) => (
 export default withRouteData(props => {
   const { recentTalks } = props;
+  console.log(recentTalks);
   return (
     <section className="row padding padding-size-large">
       <Helmet>

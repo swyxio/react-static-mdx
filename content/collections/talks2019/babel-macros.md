@@ -43,6 +43,8 @@ Points I wanna cover:
     - colocating data needs
     - faster iteration
   - GraphQL DD problem
+    - introduce graphql
+    - https://codesandbox.io/s/x6pv6358q
     - adding a field
     - mistyping braces
     - adding aliases
@@ -55,9 +57,11 @@ Points I wanna cover:
   - yay! solved
 - Act 4: Maui breaks Hook
   - Problems with Babel
-    - global scope
+    - implicit global scope
+    - unpredictable conflicts
     - implicit - spooky action at a distance
-    - extensive config
+    - needs config
+    - have to test extensively to limit scope
 - Act 5: Part the Sea
   - Babel Macros
     - GraphQL: Instead of small custom holes, Punch a big hole
@@ -82,6 +86,9 @@ Resources:
   - https://www.disnetdev.com/static/papers/thesis.pdf
 - babel blogpost: https://babeljs.io/blog/2018/08/27/7.0.0#babel-macros
 - kent's post: https://babeljs.io/blog/2017/09/11/zero-config-with-babel-macros
+- how to start with ASTs:
+  - https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md
+  - https://blog.kentcdodds.com/write-your-own-code-transform-for-fun-and-profit-140abde9c5c6?gi=6a776f3c5327
 - sunil's RFC:
   - https://github.com/threepointone/babel-macros/blob/master/README.md
   - https://github.com/facebook/create-react-app/issues/2730
@@ -91,6 +98,10 @@ Resources:
   - codegen and preval https://www.youtube.com/watch?v=1queadQ0048&t=24s
   - writing custom babel https://www.youtube.com/watch?v=VicU_XwriWw
   - tiffany white? https://www.youtube.com/watch?v=1ERAJG9ILhk&list=PLyBGKxys5xmeNUgz-DGnfTwq8OGNPIFmb
+- GraphQL Demo
+  - https://dog-suspense-demo.glitch.me/
+  - https://glitch.com/edit/#!/dog-suspense-demo?path=server.js:22:21
+  - https://codesandbox.io/s/v39j8x450l
 
 Moana:
 

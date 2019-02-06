@@ -48,16 +48,19 @@ Points I wanna cover:
     - adding aliases
 - Act 3: Meet Maui
   - What if we had a babel plugin
-  - Introducing ASTExplorer
+  - Introducing ASTExplorer/Babel playground
+    - Adding a field
+    - braces? psh
+    - aliases ezpz
   - yay! solved
 - Act 4: Maui breaks Hook
   - Problems with Babel
     - global scope
-    - explicit
+    - implicit - spooky action at a distance
     - extensive config
 - Act 5: Part the Sea
   - Babel Macros
-    - Punch a hole in your wall
+    - GraphQL: Instead of small custom holes, Punch a big hole
     - Babel Plugin Plugins
     - Compile time Libraries
   - demo some other macros
@@ -70,8 +73,6 @@ Points I wanna cover:
     - babel handbook
     - kent dodds' workshops
   - Go Forth and Explore!
-
-Talk outline:
 
 Resources:
 

@@ -68,7 +68,7 @@ Points I wanna cover:
     - Babel Plugin Plugins
     - Compile time Libraries
   - demo some other macros
-  - big reveal - some visual
+  - reveal - some visual
   - Compilers are the next frontier
 - Act 6: New Voyage
   - how to get started

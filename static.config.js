@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 chokidar.watch('content').on('all', () => reloadRoutes());
 
 export default {
-  siteRoot: 'https://swyx.io',
+  siteRoot: 'https://www.swyx.io',
   getSiteData: () => ({
     title: 'React Static'
   }),

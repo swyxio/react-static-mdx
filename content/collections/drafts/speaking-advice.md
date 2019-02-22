@@ -88,6 +88,8 @@ Entertaining talk examples (note: these are some of the best talks in the world,
 - [Wat](https://www.destroyallsoftware.com/talks/wat)
 - [Inventing on Principle](https://vimeo.com/36579366)
 - [Growing a Language](https://www.youtube.com/watch?v=_ahvzDzKdB0)
+- [Body Language](https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are)
+- [100 Days of Rejection](https://www.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection?language=en) (Embarrassing Story)
 
 ## Storytelling
 
@@ -103,11 +105,15 @@ Building your story
 - (Optional) Vivid description: paint a picture
 - (Optional) Expressive dialogue: make your audience _live_ the moment with the characters you mention
 
-Example storytelling talk: [Contributing to React](https://www.swyx.io/talks/contributing-to-react/)
+Example storytelling talk:
 
-## Collect Pieces
+- [Contributing to React](https://www.swyx.io/talks/contributing-to-react/)
+
+## Always Be Collecting
 
 Good talks often aren't constructed on demand. They are grown over time, pulling various threads from your lived experience that you only subsequently realize are relevant to your talk. So building your talk will be easier if you have an organized, searchable archive of stories, quotations, anecdotes, jokes, memes, and images that you can use in your talk.
+
+- [The puzzle of motivation](https://www.ted.com/talks/dan_pink_on_motivation) (collections of studies, anecdotes)
 
 ## Use the Pause
 

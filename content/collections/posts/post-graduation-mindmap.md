@@ -44,8 +44,9 @@ date: 2019-02-21
   - Web Design
     - https://github.com/sdras/design-for-developers
     - https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda
+    - https://refactoringui.com/
   - Advanced Interaction
-    - React DnD
+    - React DnD, React-beautiful-dnd
     - Accessible Modals (react-modal)
     - Autocomplete/typeahead (Downshift)
   - Testing
@@ -78,6 +79,7 @@ date: 2019-02-21
   - Unity
   - Music (Tone.js)
   - Wordpress
+  - Bash scripting
   - Computer Networking
     - https://github.com/alex/what-happens-when
 

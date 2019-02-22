@@ -1,3 +1,23 @@
+## Reusable Time Travel with React Hooks and Immer
+
+Learn how and why to make a `useTimeTravel` React hook that we can use to make Tolerant User Interfaces - and a discussion about how custom hooks open the doors to reusable behavior that make great UX so much easier to write!
+
+## What Humans Can Learn from Machine Learning
+
+Over the last half century, we've taught Machines to speak, move, react, see, think, and now to teach themselves. Is it game over for Humans? On the contrary, because we're now able to see and adjust the variables of learning, we've learned a great deal about _how_ to learn. In this talk, we explore five tricks of general computational learning algorithms and how we can apply them in our own learning!
+
+---
+
+Hi Organizers! I write and think a lot about Learning and Meta-Learning topics, and one of my top requested topics is always Learning How To Learn. I also do Machine Learning on the side and I think nobody has really tried to meld the two disciplines together and draw lessons from one to the other. I have an outline that I am very excited about and I think would be perfect to do a world debut at NDC:
+
+- the alpha parameter
+- momentum
+- optimality in the face of an impossibly large search space
+- generalize > memorize by using a testing set
+- epsilon exhaustion and Probably Approximately Correct learning
+
+## Would love to have the chance to introduce these ideas in a way that will be engaging for the audience regardless of whether or not they know Machine Learning.
+
 ## You Gotta Love JAMStack
 
 The JAMStack stands for JavaScript, APIs, and Markup, and at first glance it seems a truism - of course everyone uses that, right? What kind of stack is that? At its core, however, it describes a new architecture for web apps and sites that is at the confluence of multiple trends in serverless, JavaScript frameworks, static site generators, and Git-centric workflows. At the center of it all: The All-Powerful Frontend Developer!
@@ -91,6 +111,8 @@ Links:
   - Conf https://www.youtube.com/channel/UC8bRyfU7ycLXnEBfvdorpUg
   - Hackathon https://hackathon.freecodecamp.org/
 
+> Hi Organizers! I'd love a chance to lead a workshop for your folks on React, Gatsby, and serverless authentication and function execution. I believe many attendees will have passing familiarity with them but don't use them in their day jobs, and would like to attend a session to ramp up on this. I would love to be their guide.
+
 ## Hooked on Change
 
 React Hooks are finally here! Nothing's changed, yet everything's changed.
@@ -122,15 +144,6 @@ React rose to dominance, AWS Lambda started the Serverless
 movement, and Static Site Generators came back in a big way.
 What is driving this new stack of Javascript, APIs, and Markup?
 This is the story of how a JAM Stack cynic finally turned into a believer.
-
-## I can Babel Macros (and So Can You!)
-
-Babel macros are a new way to solve DX and UX tradeoffs by
-metaprogramming to write code the way that is best for you while
-delivering code that is best for the user. Case in point: JSX - but
-why stop there? In this talk we explore how I wrote babel-blade to
-solve the double declaration problem in clientside GraphQL libraries,
-and how to get started writing your first babel macro!
 
 ## The Dawn of Hybrid Site Generators
 

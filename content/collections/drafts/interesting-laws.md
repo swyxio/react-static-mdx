@@ -14,3 +14,4 @@ begun: 2019-01-22
 more:
 
 - http://utminers.utep.edu/omwilliamson/ENGL1311/fallacies.htm
+- https://www.joelonsoftware.com/2001/03/23/strategy-letter-iv-bloatware-and-the-8020-myth

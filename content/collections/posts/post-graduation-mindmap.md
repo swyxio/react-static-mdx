@@ -14,8 +14,7 @@ Some recommended resources and advice are included inline, but always feel free 
 
 My golden piece of advice for everything is to [Learn in Public](https://www.swyx.io/writing/learn-in-public/). Seriously, try it.
 
-<details>
-<summary><h2>Things to Learn</h2></summary>
+## Things to Learn
 
 - Languages
   - Python
@@ -99,12 +98,9 @@ Advice
 - Dont be afraid to pay, esp Egghead and Frontend Masters, but also books
 - Follow people and principles over individual tech
 - Open and edit node_modules
-- [Clone Open Source Apps](https://www.swyx.io/writing/clone-open-source-apps/)
 - Cover your bases, but [Specialize in something](https://www.swyx.io/writing/specialize-in-the-new/)
-  </details>
 
-<details>
-<summary><h2>Things to Build (for yourself)</h2></summary>
+## Things to Build
 
 - Personal Projects/Apps
   - Personal pain points
@@ -119,10 +115,11 @@ Advice
   - Github issue triage, reproduction
   - make it something you use
 
-</details>
+Advice
 
-<details>
-<summary><h2>Things to Do (with others)</h2></summary>
+- [Clone Open Source Apps](https://www.swyx.io/writing/clone-open-source-apps/)
+
+## Things to Do
 
 - Interview prep
   - CTCI
@@ -147,4 +144,6 @@ Advice
   - Write
   - Youtube
 
-</details>
+Advice
+
+- [Dont call yourself a programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)

@@ -14,7 +14,8 @@ Some recommended resources and advice are included inline, but always feel free 
 
 My golden piece of advice for everything is to [Learn in Public](https://www.swyx.io/writing/learn-in-public/). Seriously, try it.
 
-## Things to Learn
+<details>
+<summary><h2>Things to Learn</h2></summary>
 
 - Languages
   - Python
@@ -100,8 +101,10 @@ Advice
 - Open and edit node_modules
 - [Clone Open Source Apps](https://www.swyx.io/writing/clone-open-source-apps/)
 - Cover your bases, but [Specialize in something](https://www.swyx.io/writing/specialize-in-the-new/)
+  </details>
 
-## Things to Build
+<details>
+<summary><h2>Things to Build (for yourself)</h2></summary>
 
 - Personal Projects/Apps
   - Personal pain points
@@ -116,7 +119,10 @@ Advice
   - Github issue triage, reproduction
   - make it something you use
 
-## Things to Do
+</details>
+
+<details>
+<summary><h2>Things to Do (with others)</h2></summary>
 
 - Interview prep
   - CTCI
@@ -140,3 +146,5 @@ Advice
   - Draw
   - Write
   - Youtube
+
+</details>

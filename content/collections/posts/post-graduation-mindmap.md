@@ -5,20 +5,30 @@ category: Advice
 date: 2019-02-21
 ---
 
+What are all the things you can do to improve as a developer after graduating from college or bootcamp?
+
+I made a little mindmap, focused on webdev but also based on surveying student interests in general.
+The goal is NOT to do all of these, but to know what's out there -to- be learned and to have some method to our madness.
+
+Some recommended resources and advice are included inline, but always feel free to [ping me](https://twitter.com/swyx) for further recommendations on any topic as this list is not exhaustive.
+
+My golden piece of advice for everything is to [Learn in Public](https://www.swyx.io/writing/learn-in-public/). Seriously, try it.
+
 ## Things to Learn
 
 - Languages
   - Python
   - Java/Kotlin
-  - Go
+  - Go, Rust
   - TypeScript
   - C/C++
   - Elm
   - Swift
+  - https://www.hntrends.com
   - https://octoverse.github.com/projects#languages
   - https://insights.stackoverflow.com/survey/2018/
   - https://stackify.com/popular-programming-languages-2018/
-- Build tools
+- Build tools ([Know your tools!](https://www.swyx.io/writing/know-your-tools/))
   - Babel
   - webpack vs rollup
   - Git
@@ -60,11 +70,11 @@ date: 2019-02-21
     - react-spring
   - Simple Animation
     - http://animista.net
-    - daneden.github.io/animate.css
+    - http://daneden.github.io/animate.css
     - http://tobiasahlin.com/spinkit
     - http://www.transformicons.com/docs.html
-    - leaverou.github.io/css3patterns
-    - march08.github.io/animated-burgers
+    - http://leaverou.github.io/css3patterns
+    - http://march08.github.io/animated-burgers
     - react kawaii
   - GraphQL
     - Apollo
@@ -88,8 +98,8 @@ Advice
 - Dont be afraid to pay, esp Egghead and Frontend Masters, but also books
 - Follow people and principles over individual tech
 - Open and edit node_modules
-- Clone Open Source Apps
-- Cover your bases, but Specialize in something
+- [Clone Open Source Apps](https://www.swyx.io/writing/clone-open-source-apps/)
+- Cover your bases, but [Specialize in something](https://www.swyx.io/writing/specialize-in-the-new/)
 
 ## Things to Build
 

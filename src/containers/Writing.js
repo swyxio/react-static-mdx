@@ -38,11 +38,13 @@ export default withRouteData(({ posts, drafts }) => (
       </div>
       <hr />
       <ul>
-        {drafts.map(draft => (
-          <li key={draft.slug}>
-            <Link to={`/writing/draft/${draft.slug}/`}>{draft.title}</Link>
-          </li>
-        ))}
+        {drafts
+          .filter(d => !!d.title)
+          .map(draft => (
+            <li key={draft.slug}>
+              <Link to={`/writing/draft/${draft.slug}/`}>{draft.title}</Link>
+            </li>
+          ))}
       </ul>
     </aside>
   </section>

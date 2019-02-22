@@ -281,7 +281,7 @@ ol,
 p,
 small,
 ul {
-  padding: 0;
+  padding-top: 0;
   margin: -1px 0 18px;
   font-size: 2rem;
   line-height: 3rem;

@@ -12,7 +12,7 @@ The goal is NOT to do all of these, but to know what's out there -to- be learned
 
 Some recommended resources and advice are included inline, but always feel free to [ping me](https://twitter.com/swyx) for further recommendations on any topic as this list is not exhaustive.
 
-My golden piece of advice for everything is to [Learn in Public](https://www.swyx.io/writing/learn-in-public/). Seriously, try it.
+My golden piece of advice for everything is to [Learn in Public](https://www.swyx.io/writing/learn-in-public/). Seriously, try it. In terms of HOW you should weight these 3 things, it is tempting to go heavy on the learning, but try to be more balanced. See also [my thoughts on specifically what to do after a bootcamp, with specific recommendation on hours spent](https://github.com/sw-yx/ama/issues/1).
 
 ## Things to Learn
 

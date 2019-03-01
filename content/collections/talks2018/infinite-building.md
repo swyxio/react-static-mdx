@@ -1,5 +1,5 @@
 ---
-title: Be Wrong with Shawn Swyx Wang
+title: Infinite Building
 slug: egghead-podcast
 topic: Advice
 venues: Egghead-Podcast

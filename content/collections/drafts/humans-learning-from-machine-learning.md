@@ -14,6 +14,11 @@ However, there are useful things we can take from ML
 - optimality in the face of an impossibly large search space
 - generalize > memorize by using a testing set
 - epsilon exhaustion and Probably Approximately Correct learning
+- naive bayes - how can it be right
+  - So you just need to be directionally correct.
+- random restart hill climbing
+  - if theres a v specific point that is superbly better than others, you're in a bad world
+- simulated annealing - hot and cold
 
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiXLm24rgkZJbENxamD6f3ZDJfK7viU5gbhoGrwj1jp-AMBXVVg
 https://swizec.com/blog/only-self-help-business-advice-you-need/swizec/7190

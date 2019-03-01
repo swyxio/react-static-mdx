@@ -14,10 +14,10 @@ export default {
   getRoutes: async () => {
     const props = await jdown('content');
     let { posts, drafts, home, talks, talks2018, talks2019 } = props;
-    drafts = drafts.filter(d => !!d || !!d.slug); // make safe
-    posts = posts.filter(d => !!d || !!d.slug); // make safe
-    talks2018 = talks2018.filter(d => !!d || !!d.slug); // make safe
-    talks2019 = talks2019.filter(d => !!d || !!d.slug); // make safe
+    drafts = drafts.filter(d => !!d && !!d.slug); // make safe
+    posts = posts.filter(d => !!d && !!d.slug); // make safe
+    talks2018 = talks2018.filter(d => !!d && !!d.slug); // make safe
+    talks2019 = talks2019.filter(d => !!d && !!d.slug); // make safe
     const recentTalks = [...talks2019, ...talks2018];
     // console.log(recentTalks.map(x => Object.keys(x)));
 

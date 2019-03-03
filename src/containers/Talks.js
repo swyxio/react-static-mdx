@@ -41,7 +41,7 @@ function TalkComponent(talk, i) {
 // export default withRouteData(({ bio, pending }) => (
 export default withRouteData(props => {
   const { recentTalks } = props;
-  console.log(recentTalks);
+  // console.log(recentTalks);
   return (
     <section className="row padding padding-size-large">
       <Helmet>

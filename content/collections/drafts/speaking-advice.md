@@ -17,6 +17,7 @@ begun: 2018-12-15
 More:
 
 - https://twitter.com/Lethain/status/1011273222430474243
+- [How to record your own talk (and archive it forever)](https://seagl.org/news/2018/10/15/Recording_Your_Talk.html)
 
 ## Conference Speaking
 

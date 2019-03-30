@@ -1,3 +1,13 @@
+## Turning the Static Dynamic
+
+One of the most beautiful things about the JAMstack is how you can progressively add functionality to a static site just like you would add visual components. In particular, often want to add authentication and serverless functions to make our sites more and more dynamic... and, of course, authenticated serverless functions! In this talk we discuss the why and the how of the blurring line between static and dynamic, and show how to do it with React, Gatsby, and Netlify!
+
+## Let's Put Everything-In-JS
+
+6 years ago, React put HTML-in-JS. More recently, CSS-in-JS has become as popular as it has been controversial. What if... we just skipped ahead and took this to its logical conclusion? An exploration of the absolutely insane, totally illogical, standards-bending future of Single File Components that might just be possible.
+
+> This is my "lets go wild" talk. I've been doing some research recently on bringing Vue's Single File Components to React, and concluded that most people are still too unambitious when it comes to the possibilities. I think a framework agnostic SFC spec may be possible, and that it can cover a whole lot more than templates, styling, and javascript. I will have practical demos, but I also want people to go nuts thinking about what they can do when Compilers are the new Frameworks.
+
 ## Reusable Time Travel with React Hooks and Immer
 
 Learn how and why to make a `useTimeTravel` React hook that we can use to make Tolerant User Interfaces - and a discussion about how custom hooks open the doors to reusable behavior that make great UX so much easier to write!
@@ -8,7 +18,7 @@ Over the last half century, we've taught Machines to speak, move, react, see, th
 
 ---
 
-Hi Organizers! I write and think a lot about Learning and Meta-Learning topics, and one of my top requested topics is always Learning How To Learn. I also do Machine Learning on the side and I think nobody has really tried to meld the two disciplines together and draw lessons from one to the other. I have an outline that I am very excited about and I think would be perfect to do a world debut at NDC:
+Hi Organizers! I write and think a lot about Learning and Meta-Learning topics, and one of my top requested topics is always Learning How To Learn. I also do Machine Learning on the side and I think nobody has really tried to meld the two disciplines together and draw lessons from one to the other. I have an outline that I am very excited about, including:
 
 - the alpha parameter
 - momentum
@@ -16,7 +26,7 @@ Hi Organizers! I write and think a lot about Learning and Meta-Learning topics, 
 - generalize > memorize by using a testing set
 - epsilon exhaustion and Probably Approximately Correct learning
 
-## Would love to have the chance to introduce these ideas in a way that will be engaging for the audience regardless of whether or not they know Machine Learning.
+Would love to have the chance to introduce these ideas in a way that will be engaging for the audience regardless of whether or not they know Machine Learning.
 
 ## You Gotta Love JAMStack
 
@@ -29,10 +39,6 @@ JAMStack, Serverless, Devops, Frontend
 GraphQL is often synonymous with the return of Monolithic architecture. Does this mean the benefits of Serverless are irrelevant? In this talk we explore how Serverless and GraphQL work together, explore ways to stitch individual function schemas, and get hard numbers to fight performance concerns.
 
 This talk is a gentle reintroduction to the serverless movement for skeptics, who may not have been paying attention to all the GraphQL capabilities that are slowly emerging even on the Serverless side because most tutorials assume monolithic architectures. Nothing in the spec requires a monolith, and in fact resolvers are all mini-serverless functions anyway. We just lack the tools and wholistic viewpoint to address this gap in the market. In this talk we will discuss what we're doing at Netlify to fix that
-
-## Getting started with React + TypeScript
-
-TypeScript is increasingly being adopted in React apps at scale, from AirBnb to Shopify to Atlassian. In this live coding talk, we walk through best practices and introduce everything you need to know to get started, WITHOUT getting lost in arcane generic type logic!
 
 ## A Skeptic's Intro to the JAMStack
 
@@ -89,15 +95,9 @@ Talk structure:
 
 ## JAMStack Jumpstart: Gatsby + Netlify
 
-There is a lot of developer and investment interest in JAMStack technologies:
-from the serverless movement to new authentication models to continuous atomic deployment
-to the static site generator renaissance. But with so many new terms and options, it is hard
-for people to figure out where to start.
+There is a lot of developer and investment interest in JAMStack technologies: from the serverless movement to new authentication models to continuous atomic deployment to the static site generator renaissance. But with so many new terms and options, it is hard for people to figure out where to start.
 
-This workshop will teach developers to set up a simple but state of the art Gatsby and Netlify
-stack, which lets people create blazing fast sites and apps with React and GraphQL, backed up by
-a continuous deployment and serverless platform complete with authentication and CMS.
-It has never been easier to get a great Lighthouse score, or to deploy complex, secure webapps for free.
+This workshop will teach developers to set up a simple but state of the art Gatsby and Netlify stack, which lets people create blazing fast sites and apps with React and GraphQL, backed up by a continuous deployment and serverless platform complete with authentication and CMS. It has never been easier to get a great Lighthouse score, or to deploy complex, secure webapps for free.
 
 Links:
 
@@ -113,13 +113,9 @@ Links:
 
 > Hi Organizers! I'd love a chance to lead a workshop for your folks on React, Gatsby, and serverless authentication and function execution. I believe many attendees will have passing familiarity with them but don't use them in their day jobs, and would like to attend a session to ramp up on this. I would love to be their guide.
 
-## Hooked on Change
+##Hooked on Change
 
-React Hooks are finally here! Nothing's changed, yet everything's changed.
-Hooks don't unlock any new capability in React, so what's the big fuss?
-In this talk we introduce the Hooks API, explore the wonderful world of
-custom hooks, and finally discussed how your APIs and tools can also be
-Optimized for Change.
+React Hooks are finally here! Nothing's changed, yet everything's changed. Hooks don't unlock any new capability in React, so what's the big fuss? In this talk we introduce the Hooks API, explore the wonderful world of custom hooks, and finally discussed how your APIs and tools can also be Optimized for Change.
 
 5 reasons:
 
@@ -135,42 +131,6 @@ Links:
 - React Rally: https://www.youtube.com/watch?v=nyFHR0dDZo0
 - Hooks and Concurrent React: https://youtu.be/vhWaMPQhMLQ
 - Info on Hooks: https://reactjs.org/hooks
-
-## JAM Stack: The Total Victory of JavaScript
-
-A lot has happened in the five years since Val Karpov coined
-the MEAN stack to describe "Full Stack" Javascript stacks.
-React rose to dominance, AWS Lambda started the Serverless
-movement, and Static Site Generators came back in a big way.
-What is driving this new stack of Javascript, APIs, and Markup?
-This is the story of how a JAM Stack cynic finally turned into a believer.
-
-## The Dawn of Hybrid Site Generators
-
-There is a sea change afoot in the worlds of frontend frameworks and
-static site generators: the two have gotten married! React has Gatsby
-and React-Static, Vue has VuePress, even Svelte has Sapper. What’s
-going on? In this talk we explore how the UX bar has been raised for
-making fast, full-featured sites on the JAMStack, and how new tools
-are meeting that bar!
-
-## JS at the Edge of the World
-
-Want to live life on the Edge? Lambda functions open a world of
-possibilities for running on-demand, server-side code without having
-to run a dedicated server. It's been 4 years - What have people been
-using them for? In this talk we explore how people are pushing the
-frontiers of serverless Node.js to do everything from making slackbots
-to taking money for your next great side project!
-
-## React Suspense For The Rest of Us
-
-Even if you don't work with React, you're likely to have come across a
-React dev super excited about the new Suspense feature in React. What
-is it? Why are people so hyped? Should I care? This talk is an
-introduction for anyone who feels out of the loop - walking through
-the history of the idea and the general UI problems it solves. We will approach this in a framework-agnostic way, so that you can see if the Suspense design pattern might make sense in
-your next project!
 
 ## Reacting Ahead of Time
 
@@ -202,26 +162,12 @@ how Learning in Public can accelerate your career, bring value to your
 professional network, and ultimately make you a better developer, with
 examples all drawn from personal experience.
 
-## Using the React DevTools Profiler at Netlify
-
-How can the new React DevTools Profiler help you identify and fix
-performance issues in your app? In this lightning talk we go through a
-real life example diving into the Netlify production app to solve
-longstanding performance issues, and end with a quick checklist of
-things you can try on your app!
-
 ## React Suspense Workers
 
 React Suspense doesn't work without a caching layer, so every Suspense
 library has built one - except in service workers! In this talk we go
 through what React Suspense is, then explore a prototype of how
 "Suspense Workers" could be useful in future Concurrent React apps.
-
-## Atomic React Deploys
-
-React's logo is an atom. The component philosophy encourages Atomic
-design. What if our app deployments were atomic too? A backend that is
-never out of sync with your frontend - pipe dream or reality?
 
 ## Better Docs with Docz
 

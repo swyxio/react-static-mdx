@@ -12,13 +12,13 @@
 - Feb 7-8 - [JSConf Hawai'i](https://www.jsconfhi.com/) - Talk:
   I Can Babel Macros (and So Can You!)
 - Feb 28 - [JS.LA](https://js.la/) - Talk: JAMStack: the Total Victory of JavaScript
-- March 6 - Unannounced Mexico thing
-- mid-March: React Orlando?
-- March 25-27 - [VueConf US](http://vueconf.us/) - attending
+- March 21: React Orlando
+- March 25-27 - [VueConf US](http://vueconf.us/) - Attending
 - March 30-31 - [Reactathon](https://www.reactathon.com/) - Speaking
 - April 9 - JAMStackConf NYC
-- April 12-13 - GraphQL Asia, Bangalore
+- April 16 - JAMStack Boston
 - Jun 14-16 - [JSConf Asia](https://2019.jsconf.asia/) - React Hooks + Gatsby + Netlify JAMstack Workshop
 - Jul 7-9 - JAMStackConf London
+- Jul 15-21 - React Week NYC
 - Oct 5 - [Asbury Agile](http://www.asburyagile.com/) - Unannounced talk + workshop
 - mid Oct - JAMStackConf SF

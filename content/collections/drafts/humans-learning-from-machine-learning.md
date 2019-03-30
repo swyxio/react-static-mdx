@@ -19,8 +19,10 @@ However, there are useful things we can take from ML
 - random restart hill climbing
   - if theres a v specific point that is superbly better than others, you're in a bad world
 - simulated annealing - hot and cold
+
 - convert definites to maximum likelihood/probability densitiy estimation?
 - transfer learning as a bootstrap -> genetic evolution?
+- eager learning vs lazy learning
 
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiXLm24rgkZJbENxamD6f3ZDJfK7viU5gbhoGrwj1jp-AMBXVVg
 https://swizec.com/blog/only-self-help-business-advice-you-need/swizec/7190

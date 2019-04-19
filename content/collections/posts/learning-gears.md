@@ -5,8 +5,6 @@ category: Advice
 date: 2019-04-19
 ---
 
-> This is a public draft of my next post. [Feedback is welcome!](https://twitter.com/swyx)
-
 The most common question I get when people hear about #LearnInPublic is how to start.
 
 In a sense, this is a Bad Question™. What worked for me may or may not work for you. I don't know your situation, your interests, nor your skills. This is why [the original essay](https://www.swyx.io/writing/learn-in-public/) just gives an open ended list of ideas. Being overly prescriptive limits your personal expression, which I hate.

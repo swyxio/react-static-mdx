@@ -1,3 +1,12 @@
+## React Rally Talks
+
+- sfc in react
+- STAR
+- wheres wa11y
+- serverless server side rendering
+
+## Where's wA11y?
+
 ## Turning the Static Dynamic
 
 One of the most beautiful things about the JAMstack is how you can progressively add functionality to a static site just like you would add visual components. In particular, often want to add authentication and serverless functions to make our sites more and more dynamic... and, of course, authenticated serverless functions! In this talk we discuss the why and the how of the blurring line between static and dynamic, and show how to do it with React, Gatsby, and Netlify!
@@ -7,6 +16,36 @@ One of the most beautiful things about the JAMstack is how you can progressively
 6 years ago, React put HTML-in-JS. More recently, CSS-in-JS has become as popular as it has been controversial. What if... we just skipped ahead and took this to its logical conclusion? An exploration of the absolutely insane, totally illogical, standards-bending future of Single File Components that might just be possible.
 
 > This is my "lets go wild" talk. I've been doing some research recently on bringing Vue's Single File Components to React, and concluded that most people are still too unambitious when it comes to the possibilities. I think a framework agnostic SFC spec may be possible, and that it can cover a whole lot more than templates, styling, and javascript. I will have practical demos, but I also want people to go nuts thinking about what they can do when Compilers are the new Frameworks.
+
+Details:
+
+This talk is takes things to a humorous extreme in order to prove a point. We recap a brief history of JSX, how CSS-in-JS APIs have evolved (despite much controversy), and then discusses how we are starting to include everything from explicit types (TypeScript) and data dependencies (GraphQL, React-Redux), to documentation (JSDoc? MDX?), tests, serverless functions, and anything else we can colocate together with a component. Ultimately, we will demonstrate this in a live demo of a webpack plugin finally bringing Single File Components to React.
+
+- History
+  - In the Beginning: JS-in-HTML
+  - JSX: HTML-in-JS
+  - Tailwind: CSS-in-HTML
+  - Aphrodite, Radium, Styled-Components, Emotion: CSS-in-JS
+  - Colocation vs Separation of Concerns
+- How Vue Single File Components Work
+  - Why Vue users love SFCs
+  - an exploration of the vue-loader source code
+  - Why doesn't React have SFCs?
+- A Modest React SFC Proposal
+  - Resolving the CSS-in-JS vs CSS Modules debate
+  - Adding GraphQL
+  - Adding React-Redux
+  - Adding MDX
+  - Adding Tests
+  - Adding literally anything else webpack runs
+
+Pitch:
+
+From helping beginners and discussing developer experience with friends who use Vue, it is abundantly clear that Vue's Single File Components are a helpful convention in creating Vue apps. While React is wonderfully unopinionated about project structure, we don't _have_ to completely reject all structure and convention.
+
+I've been doing some research recently on bringing Vue's Single File Components to React, and concluded that most people are still too unambitious when it comes to the possibilities. For one thing, having an easy, standard interface for switching between static CSS Modules to more dynamic CSS-in-JS solutions like styled-components, will help resolve a lot of performance and standards-compliance criticisms often leveled at the React community. For another, colocating documentation alongside components help ensure that information that needs to be updated together always stays together.
+
+Ultimately I think a framework agnostic SFC spec may be possible, and that it can cover a whole lot more than "templates", styling, and Javascript. I will have practical demos, but I also want people to go nuts thinking about what they can do when Compilers are the new Frameworks.
 
 ## Reusable Time Travel with React Hooks and Immer
 
@@ -28,17 +67,20 @@ Hi Organizers! I write and think a lot about Learning and Meta-Learning topics, 
 
 Would love to have the chance to introduce these ideas in a way that will be engaging for the audience regardless of whether or not they know Machine Learning.
 
+---
+
+Oredev:
+
+- You will learn about how the alpha parameter can help accelerate your learning, or overshoot
+- You will learn about epsilon exhaustion and Probably Approximately Correct learning (this is a real ML term!)
+- You will learn about Simulated Annealing and the best way to search a possible solution space while converging on schedule
+- You will learn to apply the difference between Supervised and Unsupervised Learning and why generalization is more important than memorization
+
 ## You Gotta Love JAMStack
 
 The JAMStack stands for JavaScript, APIs, and Markup, and at first glance it seems a truism - of course everyone uses that, right? What kind of stack is that? At its core, however, it describes a new architecture for web apps and sites that is at the confluence of multiple trends in serverless, JavaScript frameworks, static site generators, and Git-centric workflows. At the center of it all: The All-Powerful Frontend Developer!
 
 JAMStack, Serverless, Devops, Frontend
-
-## Serverless GraphQL
-
-GraphQL is often synonymous with the return of Monolithic architecture. Does this mean the benefits of Serverless are irrelevant? In this talk we explore how Serverless and GraphQL work together, explore ways to stitch individual function schemas, and get hard numbers to fight performance concerns.
-
-This talk is a gentle reintroduction to the serverless movement for skeptics, who may not have been paying attention to all the GraphQL capabilities that are slowly emerging even on the Serverless side because most tutorials assume monolithic architectures. Nothing in the spec requires a monolith, and in fact resolvers are all mini-serverless functions anyway. We just lack the tools and wholistic viewpoint to address this gap in the market. In this talk we will discuss what we're doing at Netlify to fix that
 
 ## A Skeptic's Intro to the JAMStack
 
@@ -52,7 +94,7 @@ Over the past 20 years, the stack of web apps has slowly shifted from fully serv
 
 > Who is this presentation for?
 
-CTOs, VP Engs, Web App Team Leads
+CTOs, VP Engs, Web App Team Leads, Beginners who want to learn about shifts in web architecture
 
 > What's the takeaway for the audience?
 
@@ -78,40 +120,38 @@ Talk structure:
 
 ## STAR Apps: Design Systems, TypeScript, Apollo GraphQL, and React
 
-A new front-end stack is emerging. They involve building Design Systems for visual consistency, using TypeScript for internal consistency, Apollo GraphQL for data manipulation, and server- or statically-rendered React for data representation. In this talk we explore how these trends fit together, and _why_ leading product teams from AirBnb to the New York Times are embracing them.
+A new front-end stack is emerging, with one theme: constraints that scale. They involve building Design Systems for visual consistency, using TypeScript for internal consistency, Apollo GraphQL for data manipulation, and server- or statically-rendered React for data representation. In this talk we explore how these trends fit together, and _why_ leading product teams from AirBnb to the New York Times are embracing them.
+
+Details:
+
+This will be a high-level architecture, patterns, and tooling talk, that will tie together multiple disparate trends and hopefully present a convincing thesis: that we are at a beginning of a movement that is leading large tech companies to invest heavily in front-end technologies that impose constraints that allow teams to collaborate and ship at scale.
+
+Having these opinions allow us to build a React-based framework that bake in these opinions, and that is something I hope to demo as React's answer to the outstanding work that has been done by the Vue CLI/UI team.
 
 Talk structure:
 
 - Introducing and defining Design Systems and the tools used
 - Introducing TypeScript and why teams have embraced it for large React apps
 - Introducing Apollo and why it has become the leading GraphQL client for React
-- Discussing server-side (Next.js) vs static (Gatsby) React and React is growing at ~70% annually
+- Discussing server-side (Next.js) vs static (Gatsby) React why React is still growing at >70% annually
 - Exploring combinations:
   - Design Systems + React: React-sketchapp, Framer X
   - GraphQL + React: Discussing the componentization of Data
   - TypeScript + React: Documentation, and static checking vs proptypes
-- Inviting the audience to explore how these trends are expressions of a deeper underlying desire
-  for better tooling that matches the needs of product engineering teams.
+- Introducing a React-based framework and CLI that ties in all these patterns as a proof of concept
+- Inviting the audience to explore how these trends are expressions of a deeper underlying desire for better tooling that matches the needs of product engineering teams.
+
+Pitch:
+
+Sometimes it can be hard to find method among the madness of all the different trendy technologies in web development. Old hands are rightfully cynical and fatigued with hot new things. However, some trends, like React, do end up "winning" and persisting over many years, making them very worthwhile investments. Much like we invest in stocks and real estate, it is worth developing an investment thesis around open source technologies and architectures, in order to have a framework for deciding what to invest in and build on.
+
+As a former investment analyst, I hope to bring that market analysis perspective to developers who may not view the open source world through this lens, and hopefully explain why these trends may come together in a "superframework" that covers Design Systems, TypeScript, ApolloGraphQL, and React, or something that looks like it. My personal involvement is having worked on an app that uses all these technologies and seeing the benefits of a cohesive philosophy around consistency and data, as well as having taken stock of what multiple large tech companies are reporting they invest in.
 
 ## JAMStack Jumpstart: Gatsby + Netlify
 
 There is a lot of developer and investment interest in JAMStack technologies: from the serverless movement to new authentication models to continuous atomic deployment to the static site generator renaissance. But with so many new terms and options, it is hard for people to figure out where to start.
 
 This workshop will teach developers to set up a simple but state of the art Gatsby and Netlify stack, which lets people create blazing fast sites and apps with React and GraphQL, backed up by a continuous deployment and serverless platform complete with authentication and CMS. It has never been easier to get a great Lighthouse score, or to deploy complex, secure webapps for free.
-
-Links:
-
-- Info on JAMstack: https://jamstack.org/
-- VC interest in JAMStack:
-  - a16z: https://a16z.com/2017/08/09/netlify/
-  - KPCB: https://www.kleinerperkins.com/perspectives/netlify-modernizing-the-web
-  - CRV: https://medium.com/@CRVVC/the-jamstack-startup-landscape-c06cc3cdb917
-  - Redpoint: https://medium.com/memory-leak/the-jamstack-its-pretty-sweet-e0834e4e6bb7
-- Developer interest in JAMStack:
-  - Conf https://www.youtube.com/channel/UC8bRyfU7ycLXnEBfvdorpUg
-  - Hackathon https://hackathon.freecodecamp.org/
-
-> Hi Organizers! I'd love a chance to lead a workshop for your folks on React, Gatsby, and serverless authentication and function execution. I believe many attendees will have passing familiarity with them but don't use them in their day jobs, and would like to attend a session to ramp up on this. I would love to be their guide.
 
 ##Hooked on Change
 
@@ -152,6 +192,35 @@ back from learning to consider -how- we learn? In this talk we explore
 how Learning in Public can accelerate your career, bring value to your
 professional network, and ultimately make you a better developer, with
 examples all drawn from personal experience with React.
+
+Details
+
+This is a "soft skills" talk unlike any other - it cuts to the heart of how developers of every level learn, grow, build, and market themselves.
+
+- What is Learning in Public?
+- Who Learns in Public? Exploring Career Philosophies of leaders in our industry
+  - Sarah Drasner: Interdisciplinary blends
+  - Kent C Dodds: Consume, Build, Teach
+  - Julia Evans: B0rk
+  - Chris Coyier: Workgin in Public
+  - Lin Clark: Code Cartoons
+  - Cory House: Becoming an Outlier
+  - Max Stoiber: React-Boilerplate
+- Why Learn in Public?
+  - Giving back to others
+  - Helping your future self
+  - Being a sounding board, helping experts with your beginner's mind
+- How to Learn in Public
+  - Keeping your Identity small
+  - Brad Frost & the concept of Learning Exhaust
+  - Practicing the non-tech part of a career tech
+  - Speaking
+  - Twitter: some advice
+  - "How to Win Friends and Influence People: Online Edition"
+
+Pitch
+
+I have been writing and thinking about learning philosophy as I myself learned React and entered the industry without formal computer science qualifications, a situation I believe many React developers share. This has been some of my best and most well received writing, and I would like to earnestly include and share this "career hack" with fellow React developers who may be interested in meta-learning algorithms like this.
 
 ## Learning in Public
 

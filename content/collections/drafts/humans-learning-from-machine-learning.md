@@ -24,5 +24,16 @@ However, there are useful things we can take from ML
 - transfer learning as a bootstrap -> genetic evolution?
 - eager learning vs lazy learning
 
+RL
+
+- policy CAN change depending on whether youre playing with infinite horizon
+- temporal attribution problem
+- MDP => Bellman Equation => Value iteration strategy (rewards vs utiltiy vs always adding truth)
+- PLANNER: model -> policy
+- LEARNER: transitions -> policy
+- MODELER: transition -> model
+- SIMULATOR: model -> transition
+- exploration/exploitation/explain dilemma
+
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiXLm24rgkZJbENxamD6f3ZDJfK7viU5gbhoGrwj1jp-AMBXVVg
 https://swizec.com/blog/only-self-help-business-advice-you-need/swizec/7190

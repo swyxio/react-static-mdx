@@ -10,6 +10,7 @@ video2: https://www.youtube.com/watch?v=ZZoB5frlcnE
 github: https://github.com/sw-yx/reactive-react
 reddit: https://www.reddit.com/r/reactjs/comments/98lbpi/why_react_is_not_reactive_react_rally_2018/
 feedback: https://shawnwang3.typeform.com/to/cC7sYD
+cfp: https://gist.github.com/sw-yx/9bf1fad03185613a4c19ef5352d90a09
 ---
 
 Nice Comments:

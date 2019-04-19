@@ -136,3 +136,11 @@ Some cliches are easy to get audience engagement:
 - asking for a show of hands on a topic
 - including local favorites (or languages) in your talk
 - shouting out community leaders
+
+## Creating the Community
+
+https://twitter.com/editingemily/status/1094423803814277121
+
+## Warmups, range
+
+https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen?language=en

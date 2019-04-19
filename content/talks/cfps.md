@@ -3,7 +3,8 @@ Mar 20 - React Loop Chicago
 Mar 22 - The GraphQL Conf Berlin, Yow Lambda Jam AU -->
 <!-- Mar 24 - Barca JSCamp -->
 
-Mar 30 - OdessaJS
+<!-- Mar 30 - OdessaJS -->
+
 Mar 31 - React Rally, AmsterdamJS, Oredev sweden
 Apr 06 - Components Conf
 Apr 10 - Shipitcon 2019

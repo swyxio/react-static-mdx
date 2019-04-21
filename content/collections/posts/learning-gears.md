@@ -5,7 +5,7 @@ category: Advice
 date: 2019-04-19
 ---
 
-The most common question I get when people hear about #LearnInPublic is how to start.
+The most common question I get when people hear about [#LearnInPublic](https://twitter.com/hashtag/LearnInPublic?src=hash) is how to start.
 
 In a sense, this is a Bad Question™. What worked for me may or may not work for you. I don't know your situation, your interests, nor your skills. This is why [the original essay](https://www.swyx.io/writing/learn-in-public/) just gives an open ended list of ideas. Being overly prescriptive limits your personal expression, which I hate.
 
@@ -37,12 +37,12 @@ Most people should aim for your **Connector** gear to be their default. This is 
 
 ### Miner
 
-Reserve the **Miner** gear for when you've struck oil. Something that resonates with people, that you are also abnormally fascinated by. When you strike gold, you'll know. Stop and plant your flag.
+Reserve the **Miner** gear for when you've struck gold. Something that resonates with people, that you are also abnormally fascinated by. When you strike gold, you'll know. Stop and plant your flag.
 
 - The main **problem** to solve is that something important is too hard, or the world knows too little about something this important. Therefore **you dive deep into something nobody else does**.
 - The **creative exhaust** you make is very specialized - you **do research and build community and infrastructure**. What you do is **meant to last**. Before you, the thing was very hard, or impossible. After you, the thing becomes much easier. The world will thank you.
 - You now have one **theme** that not just unifies your work, but that you become synonymous with. Every person in the world who has the problem you solve, will eventually find you, because that is how the Internet works. (Coincidentally, you no longer need to "put yourself out there", people will come to you.) This might feel boring since you're just about one thing all the time, but what seems like one topic to you today (e.g. Machine Learning) will eventually subdivide into different disciplines when you go deep enough (e.g. Supervised Learning, Unsupervised Learning, Reinforcement Learning).
-- The **public commitment** is very high - on the order of years and careers. You're digging a mine and spending energy far more than any other sane person is doing - it helps if the area you've chosen has a good chance of widening and deepening at the same time you're mining. So have some form of macro thesis for why this field in general will be increasingly important. I will write more on this in future.
+- The **public commitment** is very high - on the order of years and careers. You're digging a mine and spending energy far more than any other sane person is doing - it helps if the area you've chosen has a good chance of widening and deepening at the same time you're mining. So have some form of macro thesis for why this field in general will be increasingly important. (More on this in future writing.)
 
 ## Why Gears
 

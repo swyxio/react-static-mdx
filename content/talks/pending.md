@@ -153,7 +153,7 @@ There is a lot of developer and investment interest in JAMStack technologies: fr
 
 This workshop will teach developers to set up a simple but state of the art Gatsby and Netlify stack, which lets people create blazing fast sites and apps with React and GraphQL, backed up by a continuous deployment and serverless platform complete with authentication and CMS. It has never been easier to get a great Lighthouse score, or to deploy complex, secure webapps for free.
 
-##Hooked on Change
+## Hooked on Change
 
 React Hooks are finally here! Nothing's changed, yet everything's changed. Hooks don't unlock any new capability in React, so what's the big fuss? In this talk we introduce the Hooks API, explore the wonderful world of custom hooks, and finally discussed how your APIs and tools can also be Optimized for Change.
 

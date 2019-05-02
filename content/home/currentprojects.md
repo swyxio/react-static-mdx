@@ -19,6 +19,8 @@
 - April 16 - JAMStack Boston
 - Jun 14-16 - [JSConf Asia](https://2019.jsconf.asia/) - React Hooks + Gatsby + Netlify JAMstack Workshop
 - Jul 7-9 - JAMStackConf London
+- Jul 17-19 - Decoupled Days
+- Aug 1-2 - [MidAtlantic Dev conf](https://www.middevcon.com/)
 - Aug 9-11 - Rolling Scopes Minsk
 - Oct 5 - [Asbury Agile](http://www.asburyagile.com/) - Unannounced talk + workshop
 - mid Oct - JAMStackConf SF

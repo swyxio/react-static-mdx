@@ -22,3 +22,5 @@ When you've done enough and start feeling bored, it's time to let your freak fla
 p.s. All this will be a lot easier if you Know Your Tools well.
 
 _originally drafted [in a gist](https://gist.github.com/sw-yx/9720bd4a30606ca3ffb8d407113c0fe5)_
+
+more: https://mobile.twitter.com/ryanflorence/status/1119661699617787904

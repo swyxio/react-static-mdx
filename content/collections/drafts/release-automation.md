@@ -36,6 +36,8 @@ How to do this:
 Other methods I need to explore:
 
 - semantic-release
+- https://github.com/intuit/auto
+- https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-automatically-running-tests-before-commits-with-ghooks
 
 ## Automated Publishing
 

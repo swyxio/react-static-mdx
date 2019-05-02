@@ -37,3 +37,12 @@ RL
 
 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiXLm24rgkZJbENxamD6f3ZDJfK7viU5gbhoGrwj1jp-AMBXVVg
 https://swizec.com/blog/only-self-help-business-advice-you-need/swizec/7190
+
+linear digressions
+
+- conv nets - move stuff around - translational invariance
+- rnn - languages
+- micromanagement
+  - starcraft etc alphazero were total untrained
+  - given infinite time and data ofc we let total untrain
+  - but dont have infinite data so helps to bootstrap

@@ -34,7 +34,8 @@ I'll motivate the discussion with some examples:
 
 It is possible to have too much of a good thing! Even if all names technically fit whatever guidelines you choose, it is still possible to have way too many names. Every new name demands more space in your working memory. One very pervasive way this happens is when names cross file and module boundaries:
 
-- `styleInjection.js` has only one export, and that export is named `genStylesCode`.
+- `styleInjection.js` has only one export.
+- That export is internally named `genStylesCode`.
 - A different file imports `styleInjection.js` and calls it `styleInjector`.
 
 This was adapted from real code in a popular framework. Here we end up with 3 different names for the exact same thing. Triple the bikeshedding. As [Joe Fiorini](https://twitter.com/joegrammer2/status/1127744685978652679) puts it, **name files after their default export**. (If it makes sense).

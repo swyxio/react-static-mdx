@@ -46,3 +46,7 @@ linear digressions
   - starcraft etc alphazero were total untrained
   - given infinite time and data ofc we let total untrain
   - but dont have infinite data so helps to bootstrap
+
+human in the loop
+
+- https://www.youtube.com/watch?v=mog8r2AqW94&t=2339s

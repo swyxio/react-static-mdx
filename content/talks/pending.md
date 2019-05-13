@@ -1,11 +1,14 @@
-## React Rally Talks
+## Adaptive Intent-based CLI State Machines
 
-- sfc in react
-- STAR
-- wheres wa11y
-- serverless server side rendering
+Oclif does a lot of nice things, like offering flag and argument parsing, help documentation, and pluggability. That's good for the CLI developer. But what about the CLI user? Instead of viewing our CLI's as simple harnesses for procedure calls, how can we add an intelligent layer to interpret to user intent and guide them down a pit of success? How can we make our CLI's improve using information gained over time?
 
-## Where's wA11y?
+Me:
+
+I was the primary CLI dev for the Netlify Dev launch, and we found several user pain points that resulted in forming this thesis around needing an intelligent layer sitting behind Oclif for better UX (and DX for that UX).
+
+## The Future of Local Development on the JAMstack
+
+As much as we like decoupled architectures, the process of development is still remarkably coupled to deployment. This talk is a deep dive into the recently launched Netlify Dev, which is a new tool to improve the local development experience, yet solving "works on my machine" syndrome by simulating Edge routing logic via WASM. We will cover how Netlify Dev achieves a zero config experience with your static site generator of choice, while remaining technology agnostic. We will explore how we can dramatically improve the setup and provisioning of serverless functions and third party APIs for event driven architectures. And finally conclude with some ideas on possible directions for the future, and an invitation to discuss, collaborate, and build the future together.
 
 ## Turning the Static Dynamic
 
@@ -230,6 +233,10 @@ back from learning to consider -how- we learn? In this talk we explore
 how Learning in Public can accelerate your career, bring value to your
 professional network, and ultimately make you a better developer, with
 examples all drawn from personal experience.
+
+Pitch
+
+I've given lots of technical talks, but this is my first time proposing a soft skills talk. A year ago I wrote an essay called "Learn in Public" that ended up helping many developers (https://twitter.com/swyx/status/1009174159690264579). Despite all the code I've written, that short essay may have been the most impactful thing I've ever written. I've since done a lot more thinking and collecting various examples and inspirations (and practicing the messaging in podcasts!) and I think this is something that could help other developers as much as it has helped me. I hope to give the audience something that will stay with them long after they have moved on from the jobs, frameworks, and languages they currently work with.
 
 ## React Suspense Workers
 

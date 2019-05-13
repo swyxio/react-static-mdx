@@ -17,10 +17,14 @@
 - March 30-31 - [Reactathon](https://www.reactathon.com/) - Speaking
 - April 9 - JAMStackConf NYC
 - April 16 - JAMStack Boston
+- May 31 - [Oclif Conf](https://oclif.io/conf)
 - Jun 14-16 - [JSConf Asia](https://2019.jsconf.asia/) - React Hooks + Gatsby + Netlify JAMstack Workshop
 - Jul 7-9 - JAMStackConf London
-- Jul 17-19 - Decoupled Days
+- Jul 11-12 - Chain React Conf
+- Jul 18-19 - JSCamp Barcelona
 - Aug 1-2 - [MidAtlantic Dev conf](https://www.middevcon.com/)
+- Aug 2 - [JSandfriendsconf](https://www.javascriptandfriends.com/)
 - Aug 9-11 - Rolling Scopes Minsk
+- Aug 22-23 - React Rally
 - Oct 5 - [Asbury Agile](http://www.asburyagile.com/) - Unannounced talk + workshop
 - mid Oct - JAMStackConf SF

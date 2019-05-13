@@ -14,3 +14,4 @@ we can either get better at being logical or try to help our illogical selves be
 - presuasion
 - tidying up
 - 5 closest friends
+- the [tomato principle](https://florentcrivello.com/index.php/2019/04/29/software-the-tough-tomato-principle-and-the-great-weirdening-of-the-world/)

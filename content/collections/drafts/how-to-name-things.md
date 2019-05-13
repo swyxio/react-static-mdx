@@ -23,7 +23,7 @@ And yes, I've unironically been in standups where we bikeshedded on whether some
 
 I'll motivate the discussion with some examples:
 
-- [**Metasyntactic names**](https://en.wikipedia.org/wiki/Metasyntactic_variable), the `lorem ipsum` of code: `foo`, `bar`, `baz`. You're not likely to see these in actual code.
+- [**Metasyntactic names**](https://en.wikipedia.org/wiki/Metasyntactic_variable), the "lorem ipsum" of code: `foo`, `bar`, `baz`. You're not likely to see these in actual code. But you might.
 - **Vague names**: `thething`, `that`, `someObject`. Everything's a thing. In JS, everything's an object. So what?
 - **Too short, likely overloaded names**: `id`, `name`, `url`. There's nothing inherently wrong with these, but often you need more than one of these. So you start with one `id` in your code, and then later on have an `app.id`, and its no longer clear what `id` means. It is then harder and harder to grep and rename names in your code. This is especially important when the language allows shadowing (_ahem JS_). Probably my most controversial, and recent, opinion.
 - **Overly Long names**: >30 characters is pushing it IMO. You can namespace names inside a dict/object.
@@ -82,6 +82,7 @@ Sindre Sorhus has some strong opinions on naming. You may not agree with all of 
 
 I [asked for more opinions on Twitter](https://twitter.com/swyx/status/1127648507676983296), and here are some I got:
 
+- Dan Abramov: [Longer names to discourage use](https://twitter.com/dan_abramov/status/1127664407239114752) - for context, React uses this a lot in [dangerouslySetInnerHTML](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml) and more subtly in [getDerivedStateFromProps](https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html) and most famously in [DO_NOT_USE_OR_YOU_WILL_BE_FIRED(https://news.ycombinator.com/item?id=11447020)
 - Ivan Babak: [Context-independent names](https://twitter.com/sompylasar/status/1127694272604413952)
 - [Don't camelcase filenames](https://twitter.com/b_sted/status/1127650071393136640) for Unix compatibility
 - Danny Eck: [Mark unstable, sync and unsafe code!](https://twitter.com/EckDaniel/status/1127694055054266368)

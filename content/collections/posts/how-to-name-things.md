@@ -66,6 +66,8 @@ Having dealt with the easy stuff above, I'm now on much more equivocal territory
 - **Namespacing**: We all agree descriptive names are better, but also that names that are too long are bad. One way to break this knot is by various namespacing strategies. Use your language's module system and data structures when naming convention fails you. For example, break up a collection of longish names like `DISPLAY_MODE_NONE`, `DISPLAY_MODE_INLINE`, `DISPLAY_MODE_BLOCK` into a `displayModes` dict or enum that you can access, like `displayModes.NONE`. It doesnt have to just be variables, it can be functions too.
 - **Grammar**: One of the most impactful naming decisions documented was in [the React lifecycle naming](https://reactjs.org/blog/2016/09/28/our-first-50000-stars.html#api-churn), which established a grammar of **Concepts, Actions and Operands** to help make lifecycles easier to remember. For CLI's, Heroku insists that `topics` are plural nouns and `commands` are verbs in their [CLI Style Guide](https://devcenter.heroku.com/articles/cli-style-guide#naming-the-command). Your users will very quickly learn your grammar and that is a fantastic way to communicate and structure your public API.
 
+> **Sidenote**: Naming is a subdiscipline of a broader art I call "API Design" - a very important and difficult-to-study topic I hope to one day write about.
+
 As usual, it is possible to take good ideas too far - encoding types into EVERYTHING and being concise leads you to the commonly misused form of [Hungarian Notation](https://twitter.com/jose_r_varela/status/1127651367861018625), which nobody likes.
 
 ## The Cost of Enforcement
@@ -89,8 +91,8 @@ Sindre Sorhus has some strong opinions on naming. You may not agree with all of 
 I [asked for more opinions on Twitter](https://twitter.com/swyx/status/1127648507676983296), and here are some I got:
 
 - Dan Abramov: [Longer names to discourage use](https://twitter.com/dan_abramov/status/1127664407239114752) - for context, React uses this a lot in [dangerouslySetInnerHTML](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml) and more subtly in [getDerivedStateFromProps](https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html) and most famously in [DO_NOT_USE_OR_YOU_WILL_BE_FIRED](https://news.ycombinator.com/item?id=11447020)
-- Ivan Babak: [Context-independent names](https://twitter.com/sompylasar/status/1127694272604413952)
-- [Don't camelcase filenames](https://twitter.com/b_sted/status/1127650071393136640) for Unix compatibility
+- Ivan Babak: Use [Context-independent names](https://twitter.com/sompylasar/status/1127694272604413952)
+- b_sted: [Don't camelcase filenames](https://twitter.com/b_sted/status/1127650071393136640) for Unix compatibility
 - Danny Eck: [Mark unstable, sync and unsafe code!](https://twitter.com/EckDaniel/status/1127694055054266368)
 - Ersagun Kuruca: [More bad names](https://twitter.com/JimmyTheXploder/status/1127704565762142208): `script, callback, data, object, value, event, number, list`
 - Matthew Weeks: [Keep it Simple but Descriptive](https://twitter.com/weeksling/status/1127669880302522370)

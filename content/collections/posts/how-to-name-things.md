@@ -12,7 +12,7 @@ I've vacillated on my opinion on naming things. I think most people start out wi
 
 I've given this essay a slightly clickbaity title. Spoiler: I'm not going to solve the problem of naming things today. All I hope to do is describe some opinions I've formed from my experience in Python and JS, list some considerations, invite you to [share yours](https://twitter.com/swyx), and suggest you have this debate on your team.
 
-## Likely Bad Names
+## Probably Bad Names
 
 Inherent in having any opinion on naming things is some intuition that some names are worse than others.
 
@@ -37,7 +37,7 @@ It is possible to have too much of a good thing! Even if _all_ names technically
 
 - `styleInjection.js` has only one export.
 - That export is a function, which is named `genStylesCode` because that's what it does.
-- A different file imports `styleInjection.js` and calls it `styleInjector` because that's what _it_ uses it for.
+- A different file imports `styleInjection.js` and calls it `styleInjector` because that's what **it** uses it for.
 - `styleInjection.js` isn't imported anywhere else, it isn't a reusable utility.
 
 This was adapted from real code in a popular framework. Here we end up with 3 different names for the exact same thing. Triple the bikeshedding. As [Joe Fiorini](https://twitter.com/joegrammer2/status/1127744685978652679) puts it, **name files after their default export**. (If it makes sense).
@@ -61,7 +61,7 @@ Having dealt with the easy stuff above, I'm now on much more equivocal territory
   - **Is it a boolean?** I do like boolean verb prefixes: `isDone`, `hasProperty`, `didChange` over `done`, `!!object[property]`, `changed`. [Here is an ESLint rule for that.](https://github.com/typescript-eslint/typescript-eslint/issues/515). [Daniel Lo Nigro](https://twitter.com/Daniel15/status/1127736210590289921) mentions that banning inverse booleans also seems like a good idea - `notDone`, `noHeaders` - to avoid double negatives - but I haven't personally done that yet.
   - **Is it an important enum or constant?** use SCREAMING_CASE, e.g. `DISPLAY_MODE_NONE`, `DISPLAY_MODE_INLINE`, `DISPLAY_MODE_BLOCK`. Often used in Redux action constants, and environment variables.
   - **Is it an internal variable?** This one I like a _lot_ - if the variable is not meant to be exposed, it can often help to prefix `_internal` variables, especially if you are mirroring an argument just for mutability in order to output it again.
-  - **Not just for "type system" types**: In private review, [Massimiliano](https://massimilianomirra.com/) wrote in with an outstanding pointer to Joel Spolsky's [Making Wrong Code Look Wrong](https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/), which advocates the original idea behind Hungarian notation, which encodes types in names far beyond what normal types can cover, reflecting ideas like "string safety" and "width" and "index" and so on. A strong recommend!
+  - **Not just for "type system" types**: In the mailing list preview, [Massimiliano](https://massimilianomirra.com/) wrote in with an outstanding pointer to Joel Spolsky's [Making Wrong Code Look Wrong](https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/), which advocates the original idea behind Hungarian notation, which encodes types in names far beyond what normal types can cover, reflecting ideas like "string safety" and "width" and "index" and so on. A strong recommend!
 - **Filenames**: We already discussed crossing file and module boundaries above. [Jonathan Johnson](https://twitter.com/LaughingBrook/status/1127805752905748480) also mentions that dates should come first in YYYY-MM-DD format.
 - **Namespacing**: We all agree descriptive names are better, but also that names that are too long are bad. One way to break this knot is by various namespacing strategies. Use your language's module system and data structures when naming convention fails you. For example, break up a collection of longish names like `DISPLAY_MODE_NONE`, `DISPLAY_MODE_INLINE`, `DISPLAY_MODE_BLOCK` into a `displayModes` dict or enum that you can access, like `displayModes.NONE`. It doesnt have to just be variables, it can be functions too.
 - **Grammar**: One of the most impactful naming decisions documented was in [the React lifecycle naming](https://reactjs.org/blog/2016/09/28/our-first-50000-stars.html#api-churn), which established a grammar of **Concepts, Actions and Operands** to help make lifecycles easier to remember. For CLI's, Heroku insists that `topics` are plural nouns and `commands` are verbs in their [CLI Style Guide](https://devcenter.heroku.com/articles/cli-style-guide#naming-the-command). Your users will very quickly learn your grammar and that is a fantastic way to communicate and structure your public API.
@@ -98,4 +98,4 @@ I [asked for more opinions on Twitter](https://twitter.com/swyx/status/112764850
 - Matthew Weeks: [Keep it Simple but Descriptive](https://twitter.com/weeksling/status/1127669880302522370)
 - Eric Bischard [recommends](https://mobile.twitter.com/httpJunkie/status/1127650526047264768) a very great talk by Kevlin Henney: ["Giving Code a Good Name"](https://www.youtube.com/watch?v=CzJ94TMPcD8).
 
-Last but not least, in private review on [the mailing list](https://tinyletter.com/swyx), [Massimiliano](https://massimilianomirra.com/) also recommended Joel Spolsky's [Making Wrong Code Look Wrong](https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/), which I can't help but recommend again.
+Last but not least, in [the mailing list](https://tinyletter.com/swyx) preview, [Massimiliano](https://massimilianomirra.com/) also recommended Joel Spolsky's [Making Wrong Code Look Wrong](https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/), which I can't help but recommend again.

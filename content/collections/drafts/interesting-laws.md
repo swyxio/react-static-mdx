@@ -11,6 +11,7 @@ begun: 2019-01-22
 - Poe's Law - satire vs extremism
 - the law where computers get more powerful but software uses it all up (wirth's law?)
 - super combo: https://twitter.com/secretGeek/status/1116217143933063169
+- Cromwell's rule https://en.wikipedia.org/wiki/Cromwell%27s_rule
 
 more:
 

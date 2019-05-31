@@ -147,6 +147,19 @@ https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_li
 
 fixing speaking voice: https://www.artofmanliness.com/articles/improve-your-speaking-voice/
 
+## toastmasters basic manual
+
+- the ice breaker
+- organize your speech
+- get to the point
+- how to say it
+- your body speaks
+- vocal variety
+- research your topic
+- get comfortable with visual aids
+- persuade w power
+- inspire your audience
+
 ## more
 
 - https://dev.to/emmawedekind/tips-for-first-time-speakers-3fcb

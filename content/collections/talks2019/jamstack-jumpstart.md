@@ -11,6 +11,17 @@ description: There is a lot of developer and investment interest in JAMStack tec
 This workshop will teach developers to set up a simple but state of the art Gatsby and Netlify stack, which lets people create blazing fast sites and apps with React and GraphQL, backed up by a continuous deployment and serverless platform complete with authentication and CMS. It has never been easier to get a great Lighthouse score, or to deploy complex, secure webapps for free.
 ---
 
+## final copy
+
+There is a lot of developer and investment interest in JAMStack technologies, from the serverless movement to new authentication models to continuous atomic deployment to the static site generator renaissance. But with so many new terms and options, it is hard for people to figure out where to start.
+
+This workshop will teach developers to set up a simple but state of the art Gatsby stack, which lets people create blazing fast sites and apps with React and GraphQL, backed up by a continuous deployment and serverless platform complete with authentication and CMS. It has never been easier to get a great Lighthouse score, or to deploy complex, secure webapps for free.
+
+Requirements:
+Attendees should have git, Node.js and npm installed, and be proficient with JavaScript and React (including routing with @reach/router or react-router).
+Install the Gatsby CLI's ahead of time: `npm install -g gatsby-cli`
+You do not need to know GraphQL, but you can get a head start by reading <a href="https://graphql.org/learn/" target="_blank" rel="noopener">https://graphql.org/learn/</a> and going through the Fundamentals section of <a href="https://www.howtographql.com/" target="_blank" rel="noopener">https://www.howtographql.com/</a>.
+
 ## Description
 
 ## I'm the best person to speak on this subject because I have been heavily involved in the JAMstack ecosystem for years and regularly write and teach about this topic. I wrote this post https://www.gatsbyjs.org/blog/2018-12-17-turning-the-static-dynamic/ for the Gatsby Blog and it was one of their most popular ever, indicating a lot of interest in a "full stack" instruction for turning static sites into fully capable web apps. I also work at Netlify and was the lead dev on the Netlify Dev CLI and can explain all the details about how to get effective at serverless functions and deployment! All technologies used in this workshop are in-demand and open source.

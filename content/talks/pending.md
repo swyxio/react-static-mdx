@@ -1,10 +1,14 @@
-## Adaptive Intent-based CLI State Machines
+## How To Do Everything with Half A Stack
 
-Oclif does a lot of nice things, like offering flag and argument parsing, help documentation, and pluggability. That's good for the CLI developer. But what about the CLI user? Instead of viewing our CLI's as simple harnesses for procedure calls, how can we add an intelligent layer to interpret to user intent and guide them down a pit of success? How can we make our CLI's improve using information gained over time?
+The JAMStack stands for JavaScript, APIs, and Markup, and at first glance it seems a truism - of course everyone uses that, right? What kind of stack is that? At its core, however, it describes a new architecture for web apps and sites that is at the confluence of multiple trends in serverless, JavaScript frameworks, static site generators, and Git-centric workflows. The Half Stack may give the impression of incompleteness, but in truth, it is becoming ever more important as backend services get commoditized and product development and differentiation moves ever forward toward who matters: the Users.
 
-Me:
+JAMStack, Serverless, Devops, Frontend
 
-I was the primary CLI dev for the Netlify Dev launch, and we found several user pain points that resulted in forming this thesis around needing an intelligent layer sitting behind Oclif for better UX (and DX for that UX).
+pitch: I work at Netlify and have seen many stories about how Frontend developers have been able to build on the JAMstack and I feel like this is a really good story for the "HalfStack" audience. This isn't a sales pitch, as many companies are involved in the JAMstack. This is a fellow halfstack developer telling everyone about all the cool options they now have and giving ideas they can take home with them for the next projects.
+
+## The Future of Local Serverless Development
+
+The feedback cycle for serverful development is short - you just run it locally. That just isn't true for serverless development, where "deploy and pray" is the norm. This talk is a deep dive into the recently launched Netlify Dev, which is a new tool to improve the local development experience. We will explore how we can dramatically improve the setup and provisioning of serverless functions and third party APIs for event driven architectures.
 
 ## The Future of Local Development on the JAMstack
 

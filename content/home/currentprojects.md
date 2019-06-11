@@ -30,5 +30,5 @@
 - Aug 22-23 - React Rally
 - Oct 4 - [Asbury Agile](http://www.asburyagile.com/) - Unannounced talk + workshop
 - Oct 13-15 - All Things Open
+- Oct 16-18 - JAMStackConf SF
 - Oct 25 - [React Advanced](https://reactadvanced.com)
-- mid Oct - JAMStackConf SF

@@ -94,3 +94,28 @@ x help docs
   - plugins system
 - subcommands: multi vs single
 - xdg spec
+
+```js
+const chalk = require("chalk")
+const { prompt } = require("enquirer")
+class Example2 extends Command {
+  // ...
+  async run() {
+    // ...
+    if (state.name) {
+      myBusinessLogic(state.name)
+    } else {
+      const name = prompt("give me a name")
+      if (name) {
+        console.log("next time you can pass a --name flag!")
+        myBusinessLogic(name)
+      } else {
+        this.error(`Error code`)
+        this.error(`Error title`)
+        this.error(`Error description (Optional)`)
+        this.error(`How to fix the error URL for more information`)
+      }
+    }
+  }
+}
+```

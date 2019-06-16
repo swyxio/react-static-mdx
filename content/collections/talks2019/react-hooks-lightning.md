@@ -1,6 +1,6 @@
 ---
 title: Getting Closure on Hooks (Lightning talk)
-slug: react-hooks
+slug: react-hooks-lightning
 topic: React
 venues: Reactathon
 date: Mar 2019

@@ -21,14 +21,18 @@
 - May 31 - [Oclif Conf](https://oclif.io/conf)
 - Jun 6 - AMA Hashnode
 - Jun 14-16 - [JSConf Asia](https://2019.jsconf.asia/) - React Hooks + Gatsby + Netlify JAMstack Workshop
+- Jun 20 - [React Singapore](https://www.meetup.com/React-Singapore/events/261345306/)
 - Jun 25-26 - SmashingConf Toronto
 - Jul 9-10 - JAMStackConf London
 - Jul 11-12 - Chain React Conf
-- Jul 18-19 - [JSCamp Barcelona](https://jscamp.tech/)
-- Aug 1-2 - [MidAtlantic Dev conf](https://www.middevcon.com/)
+- Jul 18-19 - [JSCamp Barcelona](https://jscamp.tech/): JAMStack - The Total Victory of JavaScript
+- Aug 1-2 - [MidAtlantic Dev conf](https://www.middevcon.com/): JAMStack Jumpstart - Gatsby + Netlify
 - Aug 9-11 - Rolling Scopes Minsk
 - Aug 22-23 - React Rally
 - Oct 4 - [Asbury Agile](http://www.asburyagile.com/) - Unannounced talk + workshop
 - Oct 13-15 - All Things Open
+- Oct 15-16 - SmashingConf NY
 - Oct 16-18 - JAMStackConf SF
+- Oct 19 - Silicon Valley Code Camp
 - Oct 25 - [React Advanced](https://reactadvanced.com)
+- Oct 25 - React Conf?

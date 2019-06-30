@@ -6,6 +6,7 @@ venues: JSConf Asia
 date: Jun 2019
 video: https://youtu.be/9jWwO7McMbU?t=9451
 rehearsal: https://youtu.be/6zDQBnbGQx8
+meetup: https://www.youtube.com/watch?v=il43iId9JQA
 url: https://2019.jsconf.asia/#program
 codesandbox: https://codesandbox.io/s/izqhl
 desc: Cloning the React Hooks API in raw JS

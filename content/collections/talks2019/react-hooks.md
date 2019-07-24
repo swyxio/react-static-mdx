@@ -15,6 +15,15 @@ description: The design of React Hooks requires a good understanding of closures
 
 👉🏼You can see the final livecodesandbox [here](https://codesandbox.io/s/izqhl)! 👈🏼
 
+## Twitter feedback
+
+- @dalanmiller: [@swyx
+  giving one of the most confident and well executed live coding presentations I've ever seen](https://mobile.twitter.com/dalanmiller/status/1139741383248375810)
+
+## further references
+
+- https://dev.to/kayis/react-hooks-demystified-2af6
+
 ## Livecoding plan
 
 1. stateful functions

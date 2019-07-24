@@ -26,6 +26,7 @@
 - Jul 9-10 - JAMStackConf London
 - Jul 11-12 - Chain React Conf
 - Jul 18-19 - [JSCamp Barcelona](https://jscamp.tech/): JAMStack - The Total Victory of JavaScript
+- end Jul - React Rally prep
 - Aug 1-2 - [MidAtlantic Dev conf](https://www.middevcon.com/): JAMStack Jumpstart - Gatsby + Netlify
 - Aug 9-11 - Rolling Scopes Minsk
 - Aug 22-23 - React Rally

@@ -5,6 +5,7 @@ topic: Netlify
 venues: SmashingConf
 date: Jun 2019
 url: https://smashingconf.com/toronto-2019/lunch-sessions
+video: https://www.youtube.com/watch?v=iLc8rXlLoMU
 description: This show-and-tell session will look at what you can do with serverless functions, how to get started creating and locally testing them with Netlify Dev, and finally deploying them as Netlify Functions with atomic deployments and instant rollbacks.
 ---
 

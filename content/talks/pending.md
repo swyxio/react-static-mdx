@@ -1,3 +1,7 @@
+## Does Svelte Make Me Look Fat?
+
+Svelte has gained a lot of attention this year as a serious player in the web framework space by -not- playing the same game as everyone else: As Tom Dale predicted in 2017, Compilers are becoming the new "Frameworks". In this talk we take a serious exploration into Svelte from the perspective of React, and ask what we can learn from this exciting new paradigm, including the Big Question: Could Svelte dethrone React?
+
 ## How To Do Everything with Half A Stack
 
 The JAMStack stands for JavaScript, APIs, and Markup, and at first glance it seems a truism - of course everyone uses that, right? What kind of stack is that? At its core, however, it describes a new architecture for web apps and sites that is at the confluence of multiple trends in serverless, JavaScript frameworks, static site generators, and Git-centric workflows. The Half Stack may give the impression of incompleteness, but in truth, it is becoming ever more important as backend services get commoditized and product development and differentiation moves ever forward toward who matters: the Users.

@@ -35,6 +35,12 @@ Most people should aim for your **Connector** gear to be their default. This is 
 - You still dont have a grand **theme** to your work, but usually you are **juggling multiple themes**, and also learning and teaching about their intersections.
 - The **public commitment** is moderate - usually for a few weeks or months - and often involves active exercise of soft skills that you may feel ill equipped for. Check your ego at the door and learn that too. You are "putting yourself out there". But also remember Learning In Public is an art, not a science: always rely on and refine your _taste_ rather than objectively trying to please everyone. Find _your_ people, lean on strengths you always thought were irrelevant for coding.
 
+Examples:
+
+- samantha ming
+- b0rk
+- lin clark
+
 ### Miner
 
 Reserve the **Miner** gear for when you've struck gold. Something that resonates with people, that you are also abnormally fascinated by. When you strike gold, you'll know. Stop and plant your flag.
@@ -43,6 +49,14 @@ Reserve the **Miner** gear for when you've struck gold. Something that resonates
 - The **creative exhaust** you make is very specialized - you **do research and build community and infrastructure**. What you do is **meant to last**. Before you, the thing was very hard, or impossible. After you, the thing becomes much easier. The world will thank you.
 - You now have one **theme** that not just unifies your work, but that you become synonymous with. Every person in the world who has the problem you solve, will eventually find you, because that is how the Internet works. (Coincidentally, you no longer need to "put yourself out there", people will come to you.) This might feel boring since you're just about one thing all the time, but what seems like one topic to you today (e.g. Machine Learning) will eventually subdivide into different disciplines when you go deep enough (e.g. Supervised Learning, Unsupervised Learning, Reinforcement Learning).
 - The **public commitment** is very high - on the order of years and careers. You're digging a mine and spending energy far more than any other sane person is doing - it helps if the area you've chosen has a good chance of widening and deepening at the same time you're mining. So have some form of macro thesis for why this field in general will be increasingly important. (More on this in future writing.)
+
+Examples:
+
+- Tobias Koppers
+- Jen Simmons
+- Lea Verou
+- Evan You
+- Seb McKenzie
 
 ## Why Gears
 

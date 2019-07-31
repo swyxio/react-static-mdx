@@ -1,6 +1,6 @@
 ---
 title: Learn In Public (Singapore)
-slug: learn-in-public
+slug: learn-in-public-singapore
 topic: LearnInPublic
 venues: ReactKnowledgeable
 date: June 2019

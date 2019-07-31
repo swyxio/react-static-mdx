@@ -4,6 +4,7 @@ slug: learn-in-public
 topic: LearnInPublic
 venues: VueNYC
 date: July 2019
+video: https://www.youtube.com/watch?v=znNxtSbuBjI
 description: Developers are used to the idea of constant learning, especially in the fast moving Javascript ecosystem. But how often do we take a step back from learning to consider -how- we learn? In this talk we explore how Learning in Public can accelerate your career, bring value to your professional network, and ultimately make you a better developer, with examples all drawn from personal and other experience.
 ---
 

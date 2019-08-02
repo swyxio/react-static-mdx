@@ -50,7 +50,7 @@ export default withRouteData((props) => {
         <link rel="canonical" href="https://swyx.io/talks" />
       </Helmet>
       <aside className="column column-size-large-3 column-size-small-12">
-        <h1>Recent Talks</h1>
+        <h1>2018 Talks</h1>
       </aside>
       <div className="column column-size-large-6 column-size-small-12 writing-page__content">
         <ul>{recentTalks.sort(sortTalk).map(TalkComponent)}</ul>
@@ -67,7 +67,7 @@ export default withRouteData((props) => {
         <p>
           <small>
             <em>
-              see <Link to="/talks/2018">2018 talks</Link>
+              see <Link to="/talks">recent talks</Link>
             </em>
           </small>
         </p>

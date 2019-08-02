@@ -1,7 +1,7 @@
 ---
 title: Leaving a $350K/year job to learn coding
 slug: freecodecamp-podcast
-topic: Learn In PUblic
+topic: Learn In Public
 venues: Freecodecamp-Podcast
 date: Apr 2019
 url: https://www.freecodecamp.org/news/shawn-wang-podcast-interview/

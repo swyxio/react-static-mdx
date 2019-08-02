@@ -9,6 +9,8 @@ desc: A 3-4hr workshop to introduce JAMstack and get started with Gatsby and Net
 description: There is a lot of developer and investment interest in JAMStack technologies, from the serverless movement to new authentication models to continuous atomic deployment to the static site generator renaissance. But with so many new terms and options, it is hard for people to figure out where to start. This workshop will teach developers to set up a simple but state of the art Gatsby and Netlify stack, which lets people create blazing fast sites and apps with React and GraphQL, backed up by a continuous deployment and serverless platform complete with authentication and CMS. It has never been easier to get a great Lighthouse score, or to deploy complex, secure webapps for free.
 ---
 
+This Workshop Was Hopefully Helpful to attendees!
+
 ## final copy
 
 There is a lot of developer and investment interest in JAMStack technologies, from the serverless movement to new authentication models to continuous atomic deployment to the static site generator renaissance. But with so many new terms and options, it is hard for people to figure out where to start.
